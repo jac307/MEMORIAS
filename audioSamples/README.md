@@ -8,7 +8,7 @@ https://andamio.in/prod/memorias <br/>
 
 ## Available Sounds <br/>
 
-### Voice Samples in English (Wojciechowska) <br/>
+### Voice Samples in English (Victoria Wojciechowska /Canada) <br/>
 watch -- (38) <br/>
 see -- (19) <br/>
 read -- (27) <br/>
@@ -16,7 +16,7 @@ write -- (28) <br/>
 hear -- (32) <br/>
 listen -- (28) <br/>
 
-### Voice Samples in Spanish (Rolando Rodríguez) <br/>
+### Voice Samples in Spanish (Rolando Rodríguez /México) <br/>
 observar -- (32) <br/>
 ver -- (20) <br/>
 leer -- (18) <br/>
@@ -27,7 +27,7 @@ escuchar -- (31) <br/>
 ### Instrumental Sounds <br/>
 Some of these samples are very long <br/>
 
-#### Cello (Iracema de Andrade) <br/>
+#### Cello (Iracema de Andrade /Brasil-México) <br/>
 olvidar -- (6) <br/>
 pensar -- (4) <br/>
 soñar -- (3) <br/>
@@ -37,9 +37,9 @@ mirar -- (3) <br/>
 caminar -- (4) <br/>
 reir -- (3) <br/>
 
-#### Paetzold (Alejandro Brianza) <br/>
+#### Paetzold (Alejandro Brianza /Argentina) <br/>
 aparecer -- (3) <br/>
 volver -- (6) <br/>
 
-#### Various Sounds (Industrial textures - Alejandro Brianza) <br/>
+#### Various Sounds (Industrial textures - Alejandro Brianza /Argentina) <br/>
 producir -- (7) <br/>

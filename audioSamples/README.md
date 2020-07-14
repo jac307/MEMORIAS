@@ -9,37 +9,37 @@ https://andamio.in/prod/memorias <br/>
 ## Available Sounds <br/>
 
 ### Voice Samples in English (Victoria Wojciechowska /Canada) <br/>
-watch -- (38) <br/>
-see -- (19) <br/>
-read -- (27) <br/>
-write -- (28) <br/>
-hear -- (32) <br/>
-listen -- (28) <br/>
+__watch__ -- (38) <br/>
+__see__ -- (19) <br/>
+__read__ -- (27) <br/>
+__write__ -- (28) <br/>
+__hear__ -- (32) <br/>
+__listen__ -- (28) <br/>
 
 ### Voice Samples in Spanish (Rolando Rodríguez /México) <br/>
-observar -- (32) <br/>
-ver -- (20) <br/>
-leer -- (18) <br/>
-escribir -- (39) <br/>
-oir -- (30) <br/>
-escuchar -- (31) <br/>
+__observar__ -- (32) <br/>
+__ver__ -- (20) <br/>
+__leer__ -- (18) <br/>
+__escribir__ -- (39) <br/>
+__oir__ -- (30) <br/>
+__escuchar__ -- (31) <br/>
 
 ### Instrumental Sounds <br/>
 Some of these samples are very long <br/>
 
 #### Cello (Iracema de Andrade /Brasil-México) <br/>
-olvidar -- (6) <br/>
-pensar -- (4) <br/>
-soñar -- (3) <br/>
-recordar -- (7) <br/>
-extrañar -- (4) <br/>
-mirar -- (3) <br/>
-caminar -- (4) <br/>
-reir -- (3) <br/>
+__olvidar__ -- (6) <br/>
+__pensar__ -- (4) <br/>
+__soñar__ -- (3) <br/>
+__recordar__ -- (7) <br/>
+__extrañar__ -- (4) <br/>
+__mirar__ -- (3) <br/>
+__caminar__ -- (4) <br/>
+__reir__ -- (3) <br/>
 
 #### Paetzold (Alejandro Brianza /Argentina) <br/>
-aparecer -- (3) <br/>
-volver -- (6) <br/>
+__aparecer__ -- (3) <br/>
+__volver__ -- (6) <br/>
 
 #### Various Sounds (Industrial textures - Alejandro Brianza /Argentina) <br/>
-producir -- (7) <br/>
+__producir__ -- (7) <br/>

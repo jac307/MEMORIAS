@@ -13,11 +13,11 @@ watch see read write hear listen <br/>
 observar ver leer escribir oir escuchar <br/>
 
 ### Instrumental Sounds <br/>
-Cello (Iracema de Andrade) <br/>
+#### Cello (Iracema de Andrade) <br/>
 olvidar pensar soñar recordar extrañar mirar caminar reir <br/>
 
-### Paetzold (Alejandro Brianza) <br/>
+#### Paetzold (Alejandro Brianza) <br/>
 aparecer volver
 
-### Various Sounds (Industrial textures - Alejandro Brianza) <br/>
+#### Various Sounds (Industrial textures - Alejandro Brianza) <br/>
 producir <br/>

@@ -2,7 +2,9 @@
 
 ## Information <br/>
 
+MEMORIAS (2018-19), a live coding + electronic literature project <br/>
 Author: Jessica A. Rodríguez <br/>
+https://andamio.in/prod/memorias <br/>
 
 ### Voice Samples in English (Wojciechowska) <br/>
 watch see read write hear listen <br/>

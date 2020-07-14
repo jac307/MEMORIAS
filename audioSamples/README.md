@@ -9,35 +9,37 @@ https://andamio.in/prod/memorias <br/>
 ## Available Sounds <br/>
 
 ### Voice Samples in English (Wojciechowska) <br/>
-watch <br/>
-see <br/>
-read <br/>
-write <br/>
-hear <br/>
-listen <br/>
+watch -- (38) <br/>
+see -- (19) <br/>
+read -- (27) <br/>
+write -- (28) <br/>
+hear -- (32) <br/>
+listen -- (28) <br/>
 
 ### Voice Samples in Spanish (Rolando Rodríguez) <br/>
-observar <br/>
-ver <br/>
-leer <br/>
-escribir <br/>
-oir <br/>
-escuchar <br/>
+observar -- (32) <br/>
+ver -- (20) <br/>
+leer -- (18) <br/>
+escribir -- (39) <br/>
+oir -- (30) <br/>
+escuchar -- (31) <br/>
 
 ### Instrumental Sounds <br/>
+Some of these samples are very long <br/>
+
 #### Cello (Iracema de Andrade) <br/>
-olvidar <br/>
-pensar <br/>
-soñar <br/>
-recordar <br/>
-extrañar <br/>
-mirar <br/>
-caminar <br/>
-reir <br/>
+olvidar -- (6) <br/>
+pensar -- (4) <br/>
+soñar -- (3) <br/>
+recordar -- (7) <br/>
+extrañar -- (4) <br/>
+mirar -- (3) <br/>
+caminar -- (4) <br/>
+reir -- (3) <br/>
 
 #### Paetzold (Alejandro Brianza) <br/>
-aparecer <br/>
-volver <br/>
+aparecer -- (3) <br/>
+volver -- (6) <br/>
 
 #### Various Sounds (Industrial textures - Alejandro Brianza) <br/>
-producir <br/>
+producir -- (7) <br/>

@@ -1,4 +1,4 @@
-# memoriasSamples
+# Memorias' audio samples
 
 ## Information <br/>
 

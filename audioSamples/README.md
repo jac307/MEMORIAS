@@ -1,39 +1,21 @@
 # memoriasSamples
 
-Information
+Information <br/>
 
-Author: Jessica A. Rodríguez
+Author: Jessica A. Rodríguez <br/>
 
-Voice Samples in English (Wojciechowska)
-watch
-see
-read
-write
-hear
-listen
+Voice Samples in English (Wojciechowska) <br/>
+watch see read write hear listen <br/>
 
-Voice Samples in Spanish (Rolando Rodríguez)
-observar
-ver
-leer
-escribir
-oir
-escuchar
+Voice Samples in Spanish (Rolando Rodríguez) <br/>
+observar ver leer escribir oir escuchar <br/>
 
-Instrumental Sounds
-Cello (Iracema de Andrade)
-olvidar
-pensar
-soñar
-recordar
-extrañar
-mirar
-caminar
-reir
+Instrumental Sounds <br/>
+Cello (Iracema de Andrade) <br/>
+olvidar pensar soñar recordar extrañar mirar caminar reir <br/>
 
-Paetzold (Alejandro Brianza)
-aparecer
-volver
+Paetzold (Alejandro Brianza) <br/>
+aparecer volver
 
-Various Sounds (Industrial textures - Alejandro Brianza)
-producir
+Various Sounds (Industrial textures - Alejandro Brianza) <br/>
+producir <br/>

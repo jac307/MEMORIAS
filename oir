@@ -1,0 +1,76 @@
+##JSoLang oir
+
+main = x:allRules* { return "##hydra\n" + x.join("") }
+allRules = am / are / arenT / amNot / vanished / crushed / opened / disappeared / I / They / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shining / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
+anyCharacter = .
+
+// //////////////////////////////////////
+//sentece --import
+
+// input source
+am = "am"i { return "s0" }
+are = "are"i { return "s1" }
+arenT = "arenT"i { return "s2" }
+amNot = "amNot"i { return "s3" }
+
+// import source
+vanished = "vanished"i { return "initScreen" }
+crushed = "crushed"i { return "initCam" }
+opened = "opened"i { return "initVideo" }
+disappeared = "disappeared"i { return "initImage" }
+
+// //////////////////////////////////////
+//sentece --transform
+
+// source
+I = "I"i { return "src" }
+They = "They"i { return "src" }
+Lights = "Lights"i { return "solid" }
+
+// transformations
+dream = "dream"i { return "brightness" }
+dreaming = "dreaming"i { return "brightness" }
+swallow = "swallow"i { return "contrast" }
+swallowing = "swallowing"i { return "contrast" }
+scream = "scream"i { return "pixelate" }
+screaming = "screaming"i { return "pixelate" }
+run = "run"i { return "rotate" }
+running = "running"i { return "rotate" }
+play = "play"i { return "scale" }
+playing = "playing"i { return "scale" }
+have = "have"i { return "saturate" }
+having = "having"i { return "saturate" }
+shine = "shine"i { return "scrollX" }
+shinning = "shinning"i { return "scrollX" }
+miss = "miss"i { return "scrollY" }
+missing = "missing"i { return "scrollY" }
+
+// modulators
+oceans = "oceans"i { return "modulate" }
+songs = "songs"i { return "modulatePixelate" }
+skies = "skies"i { return "modulateRotate" }
+voices = "voices"i { return "modulateScale" }
+sand = "sand"i { return "modulateScrollX" }
+beds = "beds"i { return "modulateScrollY" }
+
+// operators
+deaths = "deaths"i { return "add" }
+tales = "tales"i { return "diff" }
+noises = "noises"i { return "layer" }
+mouths = "mouths"i { return "mult" }
+
+// out
+over = "over"i { return "out" }
+
+// out
+all = "all"i { return "o0" }
+any = "any"i { return "o1" }
+whole = "whole"i { return "o2" }
+vast = "vast"i { return "o3" }
+
+// //////////////////////////////////////
+// empty string
+and = "and"i { return "" }
+next = "next"i { return "" }
+after = "after"i { return "" }
+that = "that"i { return "" }

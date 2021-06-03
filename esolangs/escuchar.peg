@@ -1,0 +1,69 @@
+##JSoLang escuchar
+
+main = x:allRules* { return "##cineCer0\n" + x.join("") }
+allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imágenes: / textos: / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
+anyCharacter = .
+
+// //////////////////////////////////////
+//sentece
+
+// time
+Ayer = "Ayer"i { return "every" }
+Hoy = "Hoy"i { return "every" }
+
+// maks
+estoy = "estoy"i { return "circleMask" }
+estamos = "estamos"i { return "circleMask'" }
+estaba = "estaba"i { return "rectMask" }
+estábamos = "estábamos"i { return "sqrMask" }
+
+// geometry
+sentada = "sentada"i { return "setCoord" }
+escuchando = "escuchando"i { return "setPosX" }
+recordando = "recordando"i { return "setPosY" }
+haciendo = "haciendo"i { return "setSize" }
+tocando = "tocando"i { return "setWidth" }
+imaginando = "imaginando"i { return "setHeight" }
+atravezando = "atravezando"i { return "fontSize" }
+soñando = "soñando"i { return "fontType" }
+
+// transform
+tempestuosas = "tempestuosas"i { return "setBrightness" }
+transformadas = "transformadas"i { return "setBlur" }
+extrañas = "extrañas"i { return "setOpacity" }
+diferentes = "diferentes"i { return "setContrast" }
+oscuras = "oscuras"i { return "setGrayscale" }
+fuertes = "oscuras"i { return "rgba" }
+aprendidas = "oscuras"i { return "strike" }
+ruidosas = "oscuras"i { return "bold" }
+silenciosas = "oscuras"i { return "italic" }
+rápidas = "oscuras"i { return "ramp" }
+lejanas = "oscuras"i { return "range" }
+claras = "oscuras"i { return "sin" }
+
+// transform
+imágenes: = "imágenes:"i { return "text" }
+textos: = "textos:"i { return "video" }
+
+// URLs
+cuartos = "cuartos"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/aguas.mov?raw=true" }
+agua = "agua"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/agua.mov?raw=true" }
+sonidos = "sonidos"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarra.mov?raw=true" }
+cigarras = "cigarras"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarras.mov?raw=true" }
+veranos = "veranos"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/verano.mov?raw=true" }
+calle = "cello"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true" }
+imágenes = "imágenes"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagen.mov?raw=true" }
+noches = "noches"i { return "https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/noches.mov?raw=true" }
+
+// //////////////////////////////////////
+// empty string
+Yo = "Yo"i { return "" }
+un = "un"i { return "" }
+una = "una"i { return "" }
+mi = "mi"i { return "" }
+mis = "mis"i { return "" }
+el = "el"i { return "" }
+los = "los"i { return "" }
+la = "la"i { return "" }
+las = "las"i { return "" }
+silencio = "silencio"i { return "" }

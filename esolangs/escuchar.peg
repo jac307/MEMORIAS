@@ -1,7 +1,7 @@
 ##JSoLang escuchar
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = Ayer / Hoy / estoy / estamos / estaba / estabamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rapidas / lejanas / claras / imagenes / textos / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
+allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imagenes / textos / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -15,7 +15,7 @@ Hoy = "Hoy"i { return "every" }
 estoy = "estoy"i { return "circleMask" }
 estamos = "estamos"i { return "circleMask\'" }
 estaba = "estaba"i { return "rectMask" }
-estabamos = "estábamos"i { return "sqrMask" }
+estábamos = "estábamos"i { return "sqrMask" }
 
 // geometry
 sentada = "sentada"i { return "setCoord" }
@@ -33,27 +33,27 @@ transformadas = "transformadas"i { return "setBlur" }
 extrañas = "extrañas"i { return "setOpacity" }
 diferentes = "diferentes"i { return "setContrast" }
 oscuras = "oscuras"i { return "setGrayscale" }
-fuertes = "oscuras"i { return "rgba" }
-aprendidas = "oscuras"i { return "strike" }
-ruidosas = "oscuras"i { return "bold" }
-silenciosas = "oscuras"i { return "italic" }
-rapidas = "oscuras"i { return "ramp" }
-lejanas = "oscuras"i { return "range" }
-claras = "oscuras"i { return "sin" }
+fuertes = "fuertes"i { return "rgba" }
+aprendidas = "aprendidas"i { return "strike" }
+ruidosas = "ruidosas"i { return "bold" }
+silenciosas = "silenciosas"i { return "italic" }
+rápidas = "rápidas"i { return "ramp" }
+lejanas = "lejanas"i { return "range" }
+claras = "claras"i { return "sin" }
 
 // transform
-imagenes = "imágenes"i { return "text" }
+imagenes = "imagenes"i { return "text" }
 textos = "textos"i { return "video" }
 
 // URLs
-cuartos = "cuartos"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/aguas.mov?raw=true" }
-agua = "agua"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/agua.mov?raw=true" }
-sonidos = "sonidos"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/cigarra.mov?raw=true" }
-cigarras = "cigarras"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/cigarras.mov?raw=true" }
-veranos = "veranos"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/verano.mov?raw=true" }
-cello = "cello"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/cello.mov?raw=true" }
-imágenes = "imágenes"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/imagen.mov?raw=true" }
-noches = "noches"i { return "https://github.com/jac307/MEMORIAS/blob/master/samples/videoSamples/noches.mov?raw=true" }
+cuartos = "cuartos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/aguas.mov?raw=true\"" }
+agua = "agua"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/agua.mov?raw=true\"" }
+sonidos = "sonidos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarra.mov?raw=true\"" }
+cigarras = "cigarras"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarras.mov?raw=true\"" }
+veranos = "veranos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/verano.mov?raw=true\"" }
+cello = "cello"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true\"" }
+imágenes = "imágenes"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagen.mov?raw=true\"" }
+noches = "noches"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/noches.mov?raw=true\"" }
 
 // //////////////////////////////////////
 // empty string

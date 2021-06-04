@@ -1,7 +1,7 @@
 ##JSoLang escuchar
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imagenes / textos / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
+allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imágenes / textos / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////

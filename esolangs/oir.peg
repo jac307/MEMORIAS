@@ -1,7 +1,7 @@
 ##JSoLang oir
 
 main = x:allRules* { return "##hydra\n" + x.join("") }
-allRules = am / are / arenT / amNot / vanished / crushed / opened / disappeared / I / They / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shining / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
+allRules = am / are / arenT / amNot / vanished / crushed / opened / disappeared / I / They / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shinning / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////

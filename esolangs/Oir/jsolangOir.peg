@@ -25,7 +25,7 @@ disappeared = "disappeared"i { return "initImage" }
 // source
 I = "I"i { return "src" }
 They = "They"i { return "src" }
-Lights = "Lights"i { return "solid" }
+silence = "silence"i { return "solid" }
 
 // transformations
 dream = "dream"i { return "brightness" }

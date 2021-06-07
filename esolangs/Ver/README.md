@@ -1,4 +1,4 @@
-# [JSOLANG] VER
+# VER
 
 ## How do I hear?
 

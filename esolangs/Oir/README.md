@@ -1,4 +1,4 @@
-# [JSOLANG] OIR
+# OIR
 
 ## How do I hear?
 

@@ -1,4 +1,4 @@
-# [JSOLANG] ESCUCHAR
+# ESCUCHAR
 
 ## How do I hear?
 

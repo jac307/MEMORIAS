@@ -1,14 +1,25 @@
 # memoriasSamples
 
-MEMORIAS (2018-19), a live coding + electronic literature project <br/>
-Author: Jessica A. Rodríguez <br/>
-https://andamio.in/prod/memorias <br/>
+MEMORIAS (2018-21), a live coding + electronic literature project <br/>
+Author: Jessica A. Rodríguez (andamio.in) <br/>
 
-## About
+## Info
 
-This project explores how speech and literature — in its written form— can be used as interfaces that allow the performer to communicate both, with the computer and the audience. Additionally, speech —in its sonic form— is moved through space and time, expanding the possibilities of spoken literature by producing unlimited variations of the “original” autobiographical writings. Within the space/time of the piece, the audience can experience different ways, textures and logics to approach visual and sound through the use of language as a memory trigger. <br/>
+![MEMORIAS'S IMAGE]("https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6Im1xYnV1YzdhLzExNjE5NjI4NDk3OTg0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=")
+
+MEMORIAS is an artistic project that unfolded in six esolangs (programming languages ​​with a high poetic and aesthetic influence) for audio-visual creation implemented using the Estuary Live Coding Platform [https://estuary.mcmaster.ca/]. The languages ​​are based on six short autobiographical texts and use syntax that mixes natural languages (in English and Spanish) ​​with computational languages. <br/>
+
+Memorias es un proyecto artístico de Jessica Rodríguez, una serie de lenguajes de programación para la creación visual y sonora que se pueden acceder a través de la plataforma en línea Estuary [https://estuary.mcmaster.ca/]. Los lenguajes están basados en seis textos cortos autobiográficos, desarrollando seis: escuchar, oír, escribir, leer, ver, y observar. <br/>
+
+More info: https://andamio.in/prod/memorias <br/>
 
 ### Credits
-Voice in English_ Vic Wojciechowska (Canada) // Voice in Spanish and text edition_ Rolando Rodríguez (Mexico) // Cello_ Iracema de Andrade (Brasil-Mexico) // Paetzold_ Alejandro Brianza (Argentina) // Technical advisors_ David Ogborn (Canada) & Luis N. Del Angel (Mexico-Canada)
+Voice in English / Voz en Inglés: Vic Wojciechowska (Canada) <br/>
+Voice in Spanish / Voz en Español: Rolando Rodríguez (Mexico) <br/>
+Cello/Violonchello: Iracema de Andrade (Brasil-Mexico) <br/>
+Paetzold: Alejandro Brianza (Argentina) <br/>
+Technical support / Soporte técnico:  David Ogborn (Canada) & Luis N. Del Angel (Mexico-Canada) <br/>
 
-This project was part the Programa de Estímulo a la Creación y Desarrollo Artístico de Michoacán (PECDAM’18) by the state of Michoacán un Mexico. It was also developed within the Networked Imagination Laboratory [NIL] at McMaster University in Hamilton, Canada, and is part of andamio.in.
+This project was part the Programa de Estímulo a la Creación y Desarrollo Artístico de Michoacán (PECDAM’18) by the state of Michoacán, Mexico. It was also developed within the Networked Imagination Laboratory [NIL] at McMaster University in Hamilton (Canada) in close connection with the SSHRC Insight grant “Platforms and practices for networked, language-neutral live coding”.
+
+Este proyecto fue parte del Programa de Estímulo a la Creación y Desarrollo Artístico de Michoacán (PECDAM’18) en el estado de Michoacán, México. Fue desarrollado también como parte del Networked Imagination Laboratory [NIL] en McMaster University in Hamilton (Canada), en connección con SSHRC Insight grant “Platforms and practices for networked, language-neutral live coding”.

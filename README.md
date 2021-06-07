@@ -5,11 +5,11 @@ Author: Jessica A. Rodríguez (andamio.in) <br/>
 
 ## Info
 
-![MEMORIAS'S IMAGE]("https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6Im1xYnV1YzdhLzExNjE5NjI4NDk3OTg0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=")
+![MEMORIAS'S IMAGE]("/img/memoriasStill3.png")
 
-MEMORIAS is an artistic project that unfolded in six esolangs (programming languages ​​with a high poetic and aesthetic influence) for audio-visual creation implemented using the Estuary Live Coding Platform [https://estuary.mcmaster.ca/]. The languages ​​are based on six short autobiographical texts and use syntax that mixes natural languages (in English and Spanish) ​​with computational languages. <br/>
+MEMORIAS is an artistic project that unfolded in six esolangs (programming languages ​​with a high poetic and aesthetic influence) for audio-visual creation implemented using the Estuary Live Coding Platform [https://estuary.mcmaster.ca/]. The languages ​​are based on six short autobiographical texts and use syntax that mixes natural languages (in English and Spanish) ​​with computational languages. This repository contains the syntax information of these esolangs. <br/>
 
-Memorias es un proyecto artístico de Jessica Rodríguez, una serie de lenguajes de programación para la creación visual y sonora que se pueden acceder a través de la plataforma en línea Estuary [https://estuary.mcmaster.ca/]. Los lenguajes están basados en seis textos cortos autobiográficos, desarrollando seis: escuchar, oír, escribir, leer, ver, y observar. <br/>
+Memorias es un proyecto artístico en donde se desarrollaron seis esolangs (lenguajes computacionales con una influencia estética alta, en este caso poética) para la creación audio-visual. Éstos están implementados en la plataforma en línea, Estuary [https://estuary.mcmaster.ca/]. Los lenguajes están basados en seis textos cortos autobiográficos, desarrollando seis: escuchar, oír, escribir, leer, ver, y observar. Este repositorio contiene la información de sintaxis de estos esolangs.<br/>
 
 More info: https://andamio.in/prod/memorias <br/>
 

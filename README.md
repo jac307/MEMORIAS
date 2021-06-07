@@ -1,11 +1,10 @@
-# memoriasSamples
-
-MEMORIAS (2018-21), a live coding + electronic literature project <br/>
+# MEMORIAS (2018-21)
+Live coding + electronic literature project <br/>
 Author: Jessica A. Rodríguez (andamio.in) <br/>
 
-## Info
-
 ![MEMORIAS'S IMAGE](/img/memoriasStill3.png)
+
+## Info
 
 MEMORIAS is an artistic project that unfolded in six esolangs (programming languages ​​with a high poetic and aesthetic influence) for audio-visual creation implemented using the Estuary Live Coding Platform [https://estuary.mcmaster.ca/]. The languages ​​are based on six short autobiographical texts and use syntax that mixes natural languages (in English and Spanish) ​​with computational languages. This repository contains the syntax information of these esolangs. <br/>
 

@@ -41,8 +41,17 @@ Options/Opciones:
 
 + `.crushed()`. Imports the default camera in your system. To import others you can add a number inside parentesis as a parameter: / Importa la cámara por defecto del sistema. Para importar otras debes añadir un número dentro de los paréntesis: `.crushed(1)`.
 
-+ `.disappear()` and `.open()`. These need an extra parameter, the URL of the image or video in quotation marks inside the parentesis: / Estas funciones necesitan un parametro extra, la URL de la imagen o el video entre comillas y dentro de los paréntesis: `did.open("/myURL.mov")`
+`.disappear()` and `.open()`. These need an extra parameter: / Estas funciones necesitan un parametro:  
 
+| video       | Image       |
+| ----------- |  ---------- |
+| `uno_`      | `cuatro_`   |
+| `dos_`      | `cinco_`    |
+| `tres_`     | `seis_`     |
+
+Ejemplo / Example:  
++ `did.open(uno_)`  
++ `are.disappeared(cuatro_)`
 
 ## Basic sentence to visualice source / Oración básica para visualizar source
 *Subject/Sujeto(Verb(o) to-be)* + *out/salida* | Example:  
@@ -61,7 +70,6 @@ El verbo to be usado para importar debe ser usado como parámetro en el sujeto, 
 
 ## Sentence to go to black / Oración para ir a negros
 + `silence().over` or `silence().out`
-
 
 ## Transform source / Transformar fuente
 Once you have a basic sentence, you can start adding transformations. These are nested between the Subject and the Out. / Una vez que tienes la oración básica puede empezar a añadir transformaciones. Estas van entre el Sujeto y la salida.  

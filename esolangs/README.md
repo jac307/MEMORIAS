@@ -4,14 +4,14 @@
 MEMORIES was developed from six autobiographical texts written in prose. The texts were created from how I have built my memory system; by *Listening*, *Writing*, *Observing*, *Reading*, *Seeing* and *Hearing* the world that has collided with my own body. In the second stage, the texts were taken to design and implement esolangs with specific functions that activate either sonic or visual materialities. <br/>
 
 Originally, all esolangs were implemented in Haskell-Reflex, using Parsec library. They were parsing different existing language for live coding (all embedded in the Estuary platform).<br/>
-1. **Escribir**, **Observar**, and **Leer** are parsing *[Tidal Cycles](https://tidalcycles.org/)* corresponding to different sonic pattern approaches. **Escribir** is for speech patterns in English, **Leer** is for speech patterns in Spanish, and **Observar** is for sonic patterns made by two main instruments: cello and paetzold. *These esolangs are still available in [Estuary](https://estuary.mcmaster.ca/)*.
+1. **[Escribir](/esolangs/Escribir.md)**, **[Observar](/esolangs/Observar.md)**, and **[Leer](/esolangs/Leer.md)** are parsing *[Tidal Cycles](https://tidalcycles.org/)* corresponding to different sonic pattern approaches. **Escribir** is for speech patterns in English, **Leer** is for speech patterns in Spanish, and **Observar** is for sonic patterns made by two main instruments: cello and paetzold. *These esolangs are still available in [Estuary](https://estuary.mcmaster.ca/)*.
 2. **Oir**, and **Ver** were parsing *[Punctual](https://github.com/dktr0/Punctual)*. **Oir** for visual synthesis, and **Ver** for sound synthesis. *These esolangs are not available as such in Estuary anymore.*
 3. **Escuchar** was parsing *[CineCer0](https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/CineCer0/REFERENCE.md)*, for video transformation. *This esolang is not available as such in Estuary anymore.*
 
-###UPDATES!!!
+### UPDATES!!!
 In 2021, I made an update in the last three esolangs. Now, they are implemented using [JSoLAngs](https://hcommons.org/deposits/item/hc:39063/), an on-the-fly text replacement language implemented in Estuary. These are the changes: <br/>
-2. **Oir** is now parsing *[Hydra](https://hydra.ojack.xyz/?sketch_id=ritchse_2)*, while **Ver** is parsing *Punctual*'s sound synthesis.
-3. **Escuchar** is still parsing CineCer0.
+2. **[Oir](/esolangs/Oir.md)** is now parsing *[Hydra](https://hydra.ojack.xyz/?sketch_id=ritchse_2)*, while **[Ver](/esolangs/Ver.md)** is parsing *Punctual*'s sound synthesis.
+3. **[Escuchar](/esolangs/Escuchar.md)** is still parsing CineCer0.
 
 _________________________________________________________
 
@@ -22,7 +22,7 @@ Originalmente, todos los esolangs se implementaron en Haskell-Reflex, utilizando
 2. **Oir** y **Ver** parseaba *[Puntual] (https://github.com/dktr0/Punctual)*. **Oir** para síntesis visual y **Ver** para síntesis de sonido. *Estos idiomas ya no están disponibles como tal en Estuary.*
 3. **Escuchar** parseaba *[CineCer0] (https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/CineCer0/REFERENCE.md)*, para la transformación de video. *Este idioma ya no están disponibles como tal en Estuary.*
 
-###UPDATES!!!
+### UPDATES!!!
 En 2021, realicé una actualización los últimos tres esolangs. Ahora, están implementados usando [JSoLAngs] (https://hcommons.org/deposits/item/hc:39063/), un lenguaje de reemplazo de texto sobre la marcha implementado en Estuary. Estos son los cambios: <br/>
 2. **Oir** ahora parsea *[Hydra] (https://hydra.ojack.xyz/?sketch_id=ritchse_2)*, mientras que **Ver** parsea la síntesis de sonido de *Punctual*.
 3. **Escuchar** todavía parsea CineCer0.

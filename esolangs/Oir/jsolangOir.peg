@@ -1,7 +1,7 @@
 ##JSoLang oir
 
 main = x:allRules* { return "##hydra\n" + x.join("") }
-allRules = am / are / arenT / amNot / vanished / crushed / opened / disappeared / I / They / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shinning / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
+allRules = am / are / do / did / donT / didT / arenT / amNot / vanish / crush / open / disappear / vanished / crushed / opened / disappeared / I / They / silence / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shinning / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -9,14 +9,22 @@ anyCharacter = .
 
 // input source
 am = "am"i { return "s0" }
-are = "are"i { return "s1" }
+are = "are"i { return "s0" }
+do = "do"i { return "s1" }
+did = "did"i { return "s1" }
 arenT = "arenT"i { return "s2" }
-amNot = "amNot"i { return "s3" }
+amNot = "amNot"i { return "s2" }
+donT = "donT"i { return "s3" }
+didT = "didT"i { return "s3" }
 
 // import source
+vanish = "vanish"i { return "initScreen" }
 vanished = "vanished"i { return "initScreen" }
+crush = "crush"i { return "initCam" }
 crushed = "crushed"i { return "initCam" }
+open = "open"i { return "initVideo" }
 opened = "opened"i { return "initVideo" }
+disappear = "disappear"i { return "initImage" }
 disappeared = "disappeared"i { return "initImage" }
 
 // //////////////////////////////////////

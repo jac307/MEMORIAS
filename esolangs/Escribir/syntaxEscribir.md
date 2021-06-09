@@ -134,5 +134,5 @@ Esta es una lista de paralabras que pueden ser añadidas entre palabras y produc
 + `Yo amo(2.0) escuchar oir no ver:5 presurosas (35) formas (0.5) ajenos sonidos (-0.2)`
 
 ## Multiple sentences / Oraciones múltiples
-To add multiple senteces, these are divided by `.` (dot) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
-+ `escucha vívidas(20) fomas(1.3). observó*2 sonidos (0.5) texturas (0.0 1.0)`
+To add multiple senteces, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
++ `escucha vívidas(20) fomas(1.3), observó*2 sonidos (0.5) texturas (0.0 1.0)`

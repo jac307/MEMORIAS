@@ -19,14 +19,14 @@ This syntax uses words and structures in Spanish / Esta sintaxis usa palabras y 
 
 Options/Opciones:
 
-| verb(o)                                                 | Files | Info                                                    |
+| verbo                                                   | Files | Info                                                    |
 | ------------------------------------------------------- | ----- | ------------------------------------------------------- |
-| `oir`, `oigo`, `oyen`, `oye`, `oí`                      | 32    | plays [hear-folder](/samples/audioSamples/hear)           |
-| `escribir`, `escribo`, `escriben`, `escribe`, `escribí` | 28    | plays [write-folder](/samples/audioSamples/write) |
-| `observar`, `observo`, `observan`, `observa`, `observé` | 38    | plays [watch-folder](/samples/audioSamples/watch) |
+| `oir`, `oigo`, `oyen`, `oye`, `oí`                      | 32    | plays [hear-folder](/samples/audioSamples/hear)         |
+| `escribir`, `escribo`, `escriben`, `escribe`, `escribí` | 28    | plays [write-folder](/samples/audioSamples/write)       |
+| `observar`, `observo`, `observan`, `observa`, `observé` | 38    | plays [watch-folder](/samples/audioSamples/watch)       |
 | `leer`, `leo`, `leen`, `lee`, `leí`                     | 27    | plays [read-folder](/samples/audioSamples/read)         |
 | `ver`, `veo`, `ven`, `ve`, `ví`                         | 19    | plays [see-folder](/samples/audioSamples/see)           |
-| `escuchar`, `escucho`, `escucha`, `escuché`             | 28    | plays [listen-folder](/samples/audioSamples/listen) |
+| `escuchar`, `escucho`, `escucha`, `escuché`             | 28    | plays [listen-folder](/samples/audioSamples/listen)     |
 
 ## Changing the sample number / Cabiando el número de sample
 *verbo:#* | Example:  
@@ -74,7 +74,7 @@ Options / Opciones: `La`, `Las`, `la`, `las`, `El`, `el`, `Los`, `los`
 + `El(4) ve escucha que oyen no observan`
 
 ### Preference Verbs / Verbos de gusto
-*número* + *artículo* + *verb-de-gusto* + *Verb(o)* | Example:  
+*número* + *artículo* + *verbo-de-gusto* + *verbo* | Example:  
 + `amo(2.0) escuchar oir no ver:5`  -- slows the cycle half the time / alenta el ciclo a mitad del tiempo  
 
 Options / Opciones:  
@@ -85,7 +85,7 @@ Options / Opciones:
 | `Odio`, `odio`, `odia`, `odian`, `odiaba`, `odiaban` | fast a value(double) the whole cycle / fast un valor(doble) todo el ciclo     |
 
 ### Subject / Subjeto
-*número* + *artículo* + [*sujeto* + *verb-de-gusto*] + *Verb(o)* | Example:  
+*número* + *artículo* + [*sujeto* + *verbo-de-gusto*] + *verbo* | Example:  
 + `Palabras(4) aman(2.0) oir escuchar no escribir:5`  -- slows just every 4 cycles / alenta únicamente cada 4 ciclos
 
 Options / Opciones: `Palabra`, `Palabras`, `Dedo`, `Dedos`, `Idioma`, `Idiomas`  
@@ -118,11 +118,11 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 | `idioma`, `idiomas`   | cuts the end / corta el final: 0.0 - 1.0       |
 | `idea`, `ideas`       | room-efect/efecto-room: 0.0=none/sin - 1.0     |
 | `imagen`, `imágenes`  | room-size/tamaño-room: 0.0=none/sin - 1.0      |
-| `México`              | efecto/effect 1                                |
-| `Colombia`            | efecto/effect 2                                |
-| `English`             | efecto/effect 3                                |
-| `Español`             | efecto/effect 4                                |
-| `Agosto`              | efecto/effect 5                                |
+| `México`              | efecto/effect 1, no-value/sin-valor            |
+| `Colombia`            | efecto/effect 2, no-value/sin-valor            |
+| `English`             | efecto/effect 3, no-value/sin-valor            |
+| `Español`             | efecto/effect 4, no-value/sin-valor            |
+| `Agosto`              | efecto/effect 5, no-value/sin-valor            |
 
 Multiple nouns can be added (up to 5) / Multiples sustantivos pueden ser añadido (hasta 5)  
 

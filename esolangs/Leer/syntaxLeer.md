@@ -19,7 +19,7 @@ This syntax uses words and structures in English / Esta sintaxis usa palabras y 
 
 Options/Opciones:
 
-| verb(o)                                          | Files | Info                                                    |
+| verb                                             | Files | Info                                                    |
 | ------------------------------------------------ | ----- | ------------------------------------------------------- |
 | `hear`, `hears`, `hearing`, `heard`              | 31    | plays [oir-folder](/samples/audioSamples/oir)           |
 | `write`, `writes`, `writing`, `wrote`, `written` | 39    | plays [escribir-folder](/samples/audioSamples/escribir) |
@@ -118,11 +118,11 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 | `vowel`, `vowels`  | cuts the end / corta el final: 0.0 - 1.0       |
 | `hall`, `halls`    | room-efect/efecto-room: 0.0=none/sin - 1.0     |
 | `wall`, `walls`    | room-size/tamaño-room: 0.0=none/sin - 1.0      |
-| `Fench`            | efecto/effect 1                                |
-| `English`          | efecto/effect 2                                |
-| `books`            | efecto/effect 3                                |
-| `bus`              | efecto/effect 4                                |
-| `swing`            | efecto/effect 5                                |
+| `Fench`            | efecto/effect 1, no-value/sin-valor            |
+| `English`          | efecto/effect 2, no-value/sin-valor            |
+| `books`            | efecto/effect 3, no-value/sin-valor            |
+| `bus`              | efecto/effect 4, no-value/sin-valor            |
+| `swing`            | efecto/effect 5, no-value/sin-valor            |
 
 Multiple nouns can be added (up to 5) / Multiples sustantivos pueden ser añadido (hasta 5)  
 

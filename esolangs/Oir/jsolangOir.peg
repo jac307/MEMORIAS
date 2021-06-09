@@ -1,11 +1,11 @@
 ##JSoLang oir
 
 main = x:allRules* { return "##hydra\n" + x.join("") }
-allRules = am / are / do / did / donT / didT / arenT / amNot / vanish / crush / open / disappear / vanished / crushed / opened / disappeared / I / They / silence / Lights / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shinning / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
+allRules = am / are / do / did / arenT / amNot / donT / didT / vanish / vanished / crush / crushed / open / opened / disappear / disappeared / I / They / silence / dream / dreaming / swallow / swallowing / scream / screaming / run / running / play / playing / have / having / shine / shinning / miss / missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
-//sentece --import
+// sentece --import
 
 // input source
 am = "am"i { return "s0" }

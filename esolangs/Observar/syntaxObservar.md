@@ -19,19 +19,19 @@ This syntax uses words and structures in Spanish / Esta sintaxis usa palabras y 
 
 Options/Opciones:
 
-| verbo                                                                      | Files | Info                                                  |
-| -------------------------------------------------------------------------- | ----- | ----------------------------------------------------- |
-| `olvidar`, `olvido`, `olvida`, `olvidan`, `olvidado`, `olvidando`          | 6     | plays [hear-folder](/samples/audioSamples/olvidar)    |
-| `pensar`, `pienso`, `piensa`, `pensaron`, `pensado`, `pensando`            | 4     | plays [write-folder](/samples/audioSamples/pensar)    |
-| `soñar`, `sueño`, `sueña`, `sueñan`, `soñado`, `soñando`                   | 3     | plays [watch-folder](/samples/audioSamples/soñar)     |
-| `recordar`, `recuerdo`, `recuerda`, `recuerdan`, `recordado`, `recordando` | 7     | plays [read-folder](/samples/audioSamples/recordar)   |
-| `extrañar`, `extraño`, `extraña`, `extrañan`, `extrañado`, `extrañando`    | 4     | plays [see-folder](/samples/audioSamples/extrañar)    |
-| `mirar`, `miro`, `mira`, `miran`, `mirado`, `mirando`                      | 3     | plays [listen-folder](/samples/audioSamples/mirar)    |
-| `caminar`, `camino`, `camina`, `caminan`, `caminado`, `caminando`          | 4     | plays [write-folder](/samples/audioSamples/caminar)   |
-| `reir`, `río`, `ríe`, `ríen`, `reído`, `riendo`                            | 3     | plays [watch-folder](/samples/audioSamples/reir)      |
-| `aparecer`, `aparezco`, `aparece`, `aparecen`, `aparecido`, `aparenciendo` | 3     | plays [read-folder](/samples/audioSamples/aparecer)   |
-| `volver`, `vuelvo`, `vuelve`, `vuelven`, `vuelto`, `volviendo`             | 6     | plays [see-folder](/samples/audioSamples/volver)      |
-| `producir`, `produzco`, `produce`, `producen`, `producido`, `produciendo`  | 7     | plays [listen-folder](/samples/audioSamples/producir) |
+| verbo                                                                      | Files | Info                                                    |
+| -------------------------------------------------------------------------- | ----- | ------------------------------------------------------- |
+| `olvidar`, `olvido`, `olvida`, `olvidan`, `olvidado`, `olvidando`          | 6     | plays [olvidar-folder](/samples/audioSamples/olvidar)   |
+| `pensar`, `pienso`, `piensa`, `pensaron`, `pensado`, `pensando`            | 4     | plays [pensar-folder](/samples/audioSamples/pensar)     |
+| `soñar`, `sueño`, `sueña`, `sueñan`, `soñado`, `soñando`                   | 3     | plays [soñar-folder](/samples/audioSamples/sonar)       |
+| `recordar`, `recuerdo`, `recuerda`, `recuerdan`, `recordado`, `recordando` | 7     | plays [recordar-folder](/samples/audioSamples/recordar) |
+| `extrañar`, `extraño`, `extraña`, `extrañan`, `extrañado`, `extrañando`    | 4     | plays [extrañar-folder](/samples/audioSamples/extranar) |
+| `mirar`, `miro`, `mira`, `miran`, `mirado`, `mirando`                      | 3     | plays [mirar-folder](/samples/audioSamples/mirar)       |
+| `caminar`, `camino`, `camina`, `caminan`, `caminado`, `caminando`          | 4     | plays [caminar-folder](/samples/audioSamples/caminar)   |
+| `reir`, `río`, `ríe`, `ríen`, `reído`, `riendo`                            | 3     | plays [reir-folder](/samples/audioSamples/reir)         |
+| `aparecer`, `aparezco`, `aparece`, `aparecen`, `aparecido`, `aparenciendo` | 3     | plays [aparece-folder](/samples/audioSamples/aparece)   |
+| `volver`, `vuelvo`, `vuelve`, `vuelven`, `vuelto`, `volviendo`             | 6     | plays [volver-folder](/samples/audioSamples/volver)     |
+| `producir`, `produzco`, `produce`, `producen`, `producido`, `produciendo`  | 7     | plays [producir-folder](/samples/audioSamples/producir) |
 
 ## Changing the sample number / Cabiando el número de sample
 *verbo:#* | Example:  

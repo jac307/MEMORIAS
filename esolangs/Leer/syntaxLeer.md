@@ -36,17 +36,17 @@ You can access this [pdf file](//samples/audioSamples/MEMORIAS_audioSamples.pdf)
 
 ## Other variations for the basic sentence
 + *Verb(o) Verb(o) Verb(o)* | Example: `hear reading listens` -- plays three samples in one cycle / reproduce tres samples en un ciclo. Cycle/ciclo=1seg
-+ *Verb(o)*2 Verb(o)* | Example: `hear*2 reading` -- plays te first sample twice / reproduce el primer sample dos veces
++ _Verb(o)*2 Verb(o)_ | Example: `hear*2 reading` -- plays te first sample twice / reproduce el primer sample dos veces
 + *Verb(o) <Verb(o):# Verb(o):#>* | Example: `hear <read:2 listen:3>` -- in one cycle plays `hear` and `read:2`, in the next cycle plays `hear` and `listen:3`; repeats / en un ciclo reproduce `hear` y `read:2`, en el siguiente ciclo reproduce `hear` y `listen:3`; se repite
 + *Verb(o) [Verb(o):# Verb(o):#]* | Example: `hear [read:2 listen:3]` -- divides the cicle in two: first part plays `hear`, in the second part plays `listen:3` and `read:2` / divide el ciclo en dos: en la primera parte reproduce `hear`, en la segunda parte reproduce `listen:3` y `read:2`
-+ *[Verb(o) Verb(o)]*2* | Example: `[read:2 listen:3]*2` -- plays both samples in double the time of the cycle / reproduce ambos samples en el doble del tiempo del ciclo
++ _[Verb(o) Verb(o)]*2_ | Example: `[read:2 listen:3]*2` -- plays both samples in double the time of the cycle / reproduce ambos samples en el doble del tiempo del ciclo
 + *[Verb(o) Verb(o)]/2* | Example: `[read:2 listen:3]/2` -- plays both samples in half the time of the cycle / reproduce ambos samples en la mitad del tiempo del ciclo
 + *Verb(o) empty Verb(o)* | Example: `read did watch` -- divides the cicle in three, the second space is empty / divide el ciclo en tres, el tercer espacio está vacío
 
 Options for empty-space / Opciones para espacio vacío: `am`, `is`, `are`, `was`, `were`, `do`, `does`, `did`, `not`
 
 ## Sentece to silence everything / Oración para silenciar todo
-+ `silence`
++ `silence` -- evaluate just this word / evalúa únicamente esta palabra
 
 ## Tranformations 1: pre-verb / Transformaciones 1: previas al verbo
 

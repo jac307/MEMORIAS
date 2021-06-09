@@ -27,7 +27,7 @@ This syntax uses words and structures in English / Esta sintaxis usa palabras y 
 
 
 ## Sentece to import multimedia sources / Oración para importar fuentes multimedia
-*Verb(o) to-be* + *verb(o)-1* | Example:  
+*verb to-be* + *verb-1* | Example:  
 + `am.vanished()` -- imports a screen as source-0 / importa la pantalla en la souce-0
 
 Options/Opciones:  
@@ -54,7 +54,7 @@ Ejemplo / Example:
 + `are.disappeared(cuatro_)`
 
 ## Basic sentence to visualice source / Oración básica para visualizar source
-*Subject/Sujeto(Verb(o) to-be)* + *out/salida* | Example:  
+*subject(verb to-be)* + *out* | Example:  
 + `am.vanished(); I(am).over()` -- visualizes imported screen / visualiza la pantalla importada  
 
 Options/Opciones:  
@@ -73,10 +73,10 @@ El verbo to be usado para importar debe ser usado como parámetro en el sujeto, 
 
 ## Transform source / Transformar fuente
 Once you have a basic sentence, you can start adding transformations. These are nested between the Subject and the Out. / Una vez que tienes la oración básica puede empezar a añadir transformaciones. Estas van entre el Sujeto y la salida.  
-*Subject/Sujeto(Verb(o) to-be)* + **LIST OF TRANSFORMATIONS** + *out/salida*
+*subject(verb to-be)* + **LIST OF TRANSFORMATIONS** + *out*
 
 ### Verb(o)s
-*Subject/Sujeto(Verb(o) to-be)* + *verb(o)s-2* + *out/salida* | Example:  
+*subject(verb to-be)* + *verbs-2* + *out* | Example:  
 + `I(am).dreaming().over()` -- modify brightness / modifica el brillo
 
 Options/Opciones:
@@ -101,7 +101,7 @@ You can add as many verbs as you want: / Puedes añadir los verbos que quieras:
 + `They(did).run().playing(1,10).having(0.2).over()`
 
 ### Nouns / Sustantivos
-*Subject/Sujeto(Verb(o) to-be)* + *verb(o)s-2* + *nouns/sust(various-words)* *out/salida* | Example:  
+*subject(verb to-be)* + *verbs-2* + *nouns(various-words)* *out* | Example:  
 + `I(am).dreaming().oceans(all).over()` -- this add a modulator / esto añade un modulador
 
 Options/Opciones:  
@@ -121,7 +121,7 @@ Each of these functions has different amount of parameters but the first one is 
 | `all`         | out/salida-0  | `whole`       | out/salida-2  |
 | `any`         | out/salida-1  | `vast`        | out/salida-3  |
 
-These parameter is connected to *out/salida()*. By default, the value is out-0, so this can be use as a parameter in nouns. / Este parámetro está conectado con  *out/salida()*. Por defecto el valor es salida-0, este parámetro puede usarse también como valor en los sustantivos.  
+These parameter is connected to *out()*. By default, the value is out-0, so this can be use as a parameter in nouns. / Este parámetro está conectado con  *out()*. Por defecto el valor es salida-0, este parámetro puede usarse también como valor en los sustantivos.  
 
 Examples: Ejemplos:
 + `I(am).playing().missing().voices(all,100).mouths(all).out()`

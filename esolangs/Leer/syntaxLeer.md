@@ -13,8 +13,8 @@ ____________________________________________
 
 This syntax uses words and structures in English / Esta sintaxis usa palabras y estructuras en Inglés.  
 
-## Basic sentece to produce sound
-*Verb(o)* | Example:   
+## Basic sentece to produce sound: Verb / Oración básica para producir sonido: Verbo
+*verb* | Example:   
 + `hear` -- plays the first sample of the "oir" folder / reproduce el primer sample del folder "oir".
 
 Options/Opciones:
@@ -28,20 +28,20 @@ Options/Opciones:
 | `see`, `sees`, `seeing`, `saw`, `seen`           | 20    | plays [ver-folder](/samples/audioSamples/ver)           |
 | `listen`, `listens`, `listening`, `listened`     | 30    | plays [escuchar-folder](/samples/audioSamples/escuchar) |
 
-## Changing the sample number
-*Verb(o):#* | Example:  
+## Changing the sample number / Cabiando el número de sample
+*verb:#* | Example:  
 + `hear:2` -- plays the third sample (starting from 0) of the "oir" folder / reproduce el tercer sample (contando desde 0) del folder "oir".
 
-You can access this [pdf file](//samples/audioSamples/MEMORIAS_audioSamples.pdf) for specific information about file number and the part of the sentence (of this story) that is played. / Puedes acceder a este [archivo pdf](//samples/audioSamples/MEMORIAS_audioSamples.pdf) para información específica sobre el número de archivo y las oraciones (de cada historia) que cada uno reproduce.
+You can access this [pdf file](/samples/audioSamples/MEMORIAS_audioSamples.pdf) for specific information about file number and the part of the sentence (of this story) that is played. / Puedes acceder a este [archivo pdf](/samples/audioSamples/MEMORIAS_audioSamples.pdf) para información específica sobre el número de archivo y las oraciones (de cada historia) que cada uno reproduce.
 
-## Other variations for the basic sentence
-+ *Verb(o) Verb(o) Verb(o)* | Example: `hear reading listens` -- plays three samples in one cycle / reproduce tres samples en un ciclo. Cycle/ciclo=1seg
-+ _Verb(o)*2 Verb(o)_ | Example: `hear*2 reading` -- plays te first sample twice / reproduce el primer sample dos veces
-+ *Verb(o) <Verb(o):# Verb(o):#>* | Example: `hear <read:2 listen:3>` -- in one cycle plays `hear` and `read:2`, in the next cycle plays `hear` and `listen:3`; repeats / en un ciclo reproduce `hear` y `read:2`, en el siguiente ciclo reproduce `hear` y `listen:3`; se repite
-+ *Verb(o) [Verb(o):# Verb(o):#]* | Example: `hear [read:2 listen:3]` -- divides the cicle in two: first part plays `hear`, in the second part plays `listen:3` and `read:2` / divide el ciclo en dos: en la primera parte reproduce `hear`, en la segunda parte reproduce `listen:3` y `read:2`
-+ _[Verb(o) Verb(o)]*2_ | Example: `[read:2 listen:3]*2` -- plays both samples in double the time of the cycle / reproduce ambos samples en el doble del tiempo del ciclo
-+ *[Verb(o) Verb(o)]/2* | Example: `[read:2 listen:3]/2` -- plays both samples in half the time of the cycle / reproduce ambos samples en la mitad del tiempo del ciclo
-+ *Verb(o) empty Verb(o)* | Example: `read did watch` -- divides the cicle in three, the second space is empty / divide el ciclo en tres, el tercer espacio está vacío
+## Other variations for the basic sentence / Otras variaciones de oración básica
++ *verb verb verb* | Example: `hear reading listens` -- plays three samples in one cycle / reproduce tres samples en un ciclo. Cycle/ciclo=1seg
++ _verb*2 verb_ | Example: `hear*2 reading` -- plays te first sample twice / reproduce el primer sample dos veces
++ *verb <verb:# verb:#>* | Example: `hear <read:2 listen:3>` -- in one cycle plays `hear` and `read:2`, in the next cycle plays `hear` and `listen:3`; repeats / en un ciclo reproduce `hear` y `read:2`, en el siguiente ciclo reproduce `hear` y `listen:3`; se repite
++ *verb [verb:# verb:#]* | Example: `hear [read:2 listen:3]` -- divides the cicle in two: first part plays `hear`, in the second part plays `listen:3` and `read:2` / divide el ciclo en dos: en la primera parte reproduce `hear`, en la segunda parte reproduce `listen:3` y `read:2`
++ _[verb verb]*2_ | Example: `[read:2 listen:3]*2` -- plays both samples in double the time of the cycle / reproduce ambos samples en el doble del tiempo del ciclo
++ *[verb verb]/2* | Example: `[read:2 listen:3]/2` -- plays both samples in half the time of the cycle / reproduce ambos samples en la mitad del tiempo del ciclo
++ *verb empty verb* | Example: `read did watch` -- divides the cicle in three, the second space is empty / divide el ciclo en tres, el tercer espacio está vacío
 
 Options for empty-space / Opciones para espacio vacío: `am`, `is`, `are`, `was`, `were`, `do`, `does`, `did`, `not`
 
@@ -51,7 +51,7 @@ Options for empty-space / Opciones para espacio vacío: `am`, `is`, `are`, `was`
 ## Tranformations 1: pre-verb / Transformaciones 1: previas al verbo
 
 ### Numbers / Números
-*numbers* + *Verb(o)* | Example:  
+*number* + *verb* | Example:  
 + `one_ hear hear` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
 
 Opciones / Options:  
@@ -62,11 +62,11 @@ Opciones / Options:
 | `four_`, `five_`, `six_`  | needs a value (double), from then it pans / necesita un valor (doble), de ahí panea  |
 
 + `one_ hearing listening*3`
-+ `four_ 0.2 hearing listening*3`
++ `four_ (0.2) hearing listening*3`
 
 ### Pronouns / Pronombres
-*numbers* + *pronoun* + *Verb(o)* | Example:  
-+ `one_ I(8) hear*8` -- acepts a int. Makes a granulation efect cutting the samples in the value that is given / acepta un entero. Hace un efecto de granulación cortando los samples en el valor que le des.
+*number* + *pronoun* + *verb* | Example:  
++ `one_ I(8) hear*8` -- acepts int. Makes a granulation efect cutting the samples in the value that is given / acepta un entero. Hace un efecto de granulación cortando los samples en el valor que le des.
 
 Options / Opciones: `I`, `We`, `we`, `They`, `they`  
 
@@ -74,7 +74,7 @@ Options / Opciones: `I`, `We`, `we`, `They`, `they`
 + `They(4) hear watch did listen not reading`
 
 ### Preference Verbs / Verbos de gusto
-*numbers* + *pronoun* + *preference-verb* + *Verb(o)* | Example:  
+*numbers* + *pronoun* + *preference-verb* + *verb* | Example:  
 + `wanted(2.0) hearing listening not watching:5`  -- slows the cycle half the time / alenta el ciclo a mitad del tiempo  
 
 Options / Opciones:  
@@ -85,7 +85,7 @@ Options / Opciones:
 | `like`, `likes`, `liked`   | fast a value(double) the whole cycle / fast un valor(doble) todo el ciclo     |
 
 ### Adverbs / Adverbios
-*numbers* + *pronoun* + [*adverb* + *preference-verb*] + *Verb(o)* | Example:  
+*numbers* + *pronoun* + [*adverb* + *preference-verb*] + *verb* | Example:  
 + `sometimes(4) wanted(2.0) hearing listening not watching:5`  -- slows just every 4 cycles / alenta únicamente cada 4 ciclos
 
 Options / Opciones: `always`, `Sometimes`, `sometimes`, `Often`, `often`, `rarely`  
@@ -93,14 +93,14 @@ Options / Opciones: `always`, `Sometimes`, `sometimes`, `Often`, `often`, `rarel
 ## Tranformations 2: post-verb / Transformaciones 2: posteriores al verbo
 
 ### ing-verb(o)s
-*Verb(o)* + *ing-verb(o)* | Examples:  
+*Verb* + *ing-verb* | Examples:  
 + `hears multiplying(20)` -- plays a random sample of the *oir-folder* up to its 20th file (int value) / reproduce un sample de manera aleatoria del *folder-oir* hasta su archivo 20 (valor int)  
 + `hears watchs multiplying(20)` -- same but now with two folder-samples / lo mismo pero ahora con dos folders the samples.  
 
 Options / Opciones: `multiplying`, `imagining`, `swinging`, `lying`  
 
 ### Noun / Sustantivos
-*Verb(o)* + *ing-verb(o)* + *noun* | Examples:  
+*verb* + *ing-verb* + *nouns* | Examples:  
 + `hears multiplying(20) lights(1.3)` -- highest the volume / sube el volumen
 + `hears watchs multiplying(20) lights(1.3 0.8)` -- highest the volume of the first sample, lowest the volume of the second / sube el volumen del primer sample, baja el volumen del segundo
 

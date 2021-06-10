@@ -109,7 +109,7 @@ Options / Opciones: `blanco`, `blancos`, `blanca`, `blancas`, `opaco`, `opacos`,
 
 Options (all must have a double-value in parentesis) / Opciones (todos deben tener un valor-doble en paréntesis):  
 
-| noun/sustantivo       | Info                                                     |
+| sustantivos           | Info                                                     |
 | --------------------- | -------------------------------------------------------- |
 | `recuerdos`           | pitch: ++ high/agudo, --low/grave, 0=normal              |
 | `sueño`, `sueños`     | volume/volumen: 0.0 - 2.0, 1.0=normal                    |
@@ -139,13 +139,13 @@ This is an alternative option to create random values to nouns, options: / Esta 
 
 `negro`, `negros`, `obscuro`, `obscuros`  
 
-## Empty string / String vacios
+## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  
-Esta es una lista de paralabras que pueden ser añadidas entre palabras y producen un string vacío  
+Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `en`, `sobre`, `el`, `El`, `la`, `las`, `Puerta`, `Puertas`, `Un`, `un`, `unos`, `Perro`, `también`, `mi`, `mis`, `con`, `a`, `A`, `veces`, `No`, `sobre`, `ajeno`, `ajenos` | Example:  
 + `las Palabras han(4) estado(2.0) pensado olvidado:5 sueños negros (1.0) ajenos`
 
 ## Multiple sentences / Oraciones múltiples
-To add multiple senteces, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
+To add multiple sentences, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
 + `olvido brillantes(20) sueños(1.3), extraño*2 recuerdos (0.5) sobre pasillos (0.0 1.0)`

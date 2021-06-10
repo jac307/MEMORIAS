@@ -1,7 +1,7 @@
 ##JSoLang escuchar
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imágenes / textos / cuartos / agua / sonidos / cigarras / veranos / cello / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
+allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imágenes / textos / cuartos / aguas / sonidos / cigarras / veranos / cellos / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -47,11 +47,11 @@ textos = "textos"i { return "video" }
 
 // URLs
 cuartos = "cuartos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/aguas.mov?raw=true\"" }
-agua = "agua"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/agua.mov?raw=true\"" }
+aguas = "aguas"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/agua.mov?raw=true\"" }
 sonidos = "sonidos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarra.mov?raw=true\"" }
 cigarras = "cigarras"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarras.mov?raw=true\"" }
 veranos = "veranos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/verano.mov?raw=true\"" }
-cello = "cello"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true\"" }
+cellos = "cellos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true\"" }
 imágenes = "imágenes"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagen.mov?raw=true\"" }
 noches = "noches"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/noches.mov?raw=true\"" }
 

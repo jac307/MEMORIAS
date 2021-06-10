@@ -106,7 +106,7 @@ Options / Opciones: `multiplying`, `imagining`, `swinging`, `lying`
 
 Options (all must have a double-value in parentesis) / Opciones (todos deben tener un valor-doble en paréntesis):  
 
-| noun/sustantivo    | Info                                           |
+| sustantivos        | Info                                           |
 | ------------------ | ---------------------------------------------- |
 | `sound`, `sounds`  | pitch: ++ high/agudo, --low/grave, 0=normal    |
 | `light`, `lights`  | volume/volumen: 0.0 - 2.0, 1.0=normal          |
@@ -126,13 +126,13 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 
 Multiple nouns can be added (up to 5) / Multiples sustantivos pueden ser añadido (hasta 5)  
 
-## Empty string / String vacios
+## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  
-Esta es una lista de paralabras que pueden ser añadidas entre palabras y producen un string vacío  
+Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `myself`, `on`, `in`, `that`, `The`, `the`, `to`, `with`, `everything`, `anything`, `suspended`, `without`, `through`, `Through`, `down` | Example:  
 + `wanted(2.0) to hear listening not watching suspended (35) spaces (0.5) without sounds (-0.2)`
 
 ## Multiple sentences / Oraciones múltiples
-To add multiple senteces, these are divided by `.` (dot) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
+To add multiple sentences, these are divided by `.` (dot) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
 + `hears multiplying(20) lights(1.3). watching*2 sounds (0.5) doors (0.0 1.0)`

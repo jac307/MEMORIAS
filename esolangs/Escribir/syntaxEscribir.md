@@ -106,7 +106,7 @@ Options / Opciones: `vívida`, `vívidas`, `vívido`, `vívidos`, `presurosa`, `
 
 Options (all must have a double-value in parentesis) / Opciones (todos deben tener un valor-doble en paréntesis):  
 
-| noun/sustantivo       | Info                                           |
+| sustantivos           | Info                                           |
 | --------------------- | ---------------------------------------------- |
 | `sonido`, `sonidos`   | pitch: ++ high/agudo, --low/grave, 0=normal    |
 | `forma`, `formas`     | volume/volumen: 0.0 - 2.0, 1.0=normal          |
@@ -126,13 +126,13 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 
 Multiple nouns can be added (up to 5) / Multiples sustantivos pueden ser añadido (hasta 5)  
 
-## Empty string / String vacios
+## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  
-Esta es una lista de paralabras que pueden ser añadidas entre palabras y producen un string vacío  
+Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `Yo`, `mi`, `mis`, `su`, `sus`, `un`, `una`, `Un`, `Una`, `dedo`, `con`, `ajeno`, `ajenos` | Example:  
 + `Yo amo(2.0) escuchar oir no ver:5 presurosas (35) formas (0.5) ajenos sonidos (-0.2)`
 
 ## Multiple sentences / Oraciones múltiples
-To add multiple senteces, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
-+ `escucha vívidas(20) fomas(1.3), observó*2 sonidos (0.5) texturas (0.0 1.0)`
+To add multiple sentences, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
++ `escucha vívidas(20) formas(1.3), observó*2 sonidos (0.5) texturas (0.0 1.0)`

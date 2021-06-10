@@ -22,3 +22,36 @@ IMPORTANTE: En ambos pasos, 3 y 4, no selecciones ningúna opción delenguaje en
 ____________________________________________
 
 ## Syntax / Sintaxis
+
+This syntax uses words and structures in Spanish / Esta sintaxis usa palabras y estructuras en Español.
+
+## Basic sentece to play a video: Noun / Oración básica para reproducir un video: Suntantivo
+*sustantivo* | Example:   
++ `aguas` -- plays the video linked to this word / reproduce el video que está ligado a esta palabra.  
+
+Options / Opciones:  
+
+| sustantivos  | Video-still                                    |
+| ------------ | ---------------------------------------------- |
+| `cuartos`    | ![MEMORIAS'S IMAGE](/img/aguas-still.jpg)      |
+| `aguas`      | ![MEMORIAS'S IMAGE](/img/agua-still.jpg)       |
+
+
+
+
+
+
+
+
+
+
+## Empty string / String vacíos
+This is a list of words that can be added in-between words that produce an empty string.  
+Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
+
+`Yo`, `un`, `una`, `mi`, `mis`, `el`, `los`, `la`, `las` | Example:  
++ `I`  
+
+## Multiple sentences / Oraciones múltiples
+To add multiple sentences, these are divided by `;` (semicolon) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
++ `I`

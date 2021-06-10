@@ -44,7 +44,7 @@ Options/Opciones:
 `.disappear()` and `.open()`. These need an extra parameter: / Estas funciones necesitan un parametro:  
 
 | video       | Image       |
-| ----------- |  ---------- |
+| ----------- | ----------- |
 | `uno_`      | `cuatro_`   |
 | `dos_`      | `cinco_`    |
 | `tres_`     | `seis_`     |
@@ -81,7 +81,7 @@ Once you have a basic sentence, you can start adding transformations. These are 
 
 Options/Opciones:
 
-| verb(o)-2                         | Info            |
+| verb-2                            | Info            |
 | --------------------------------- | ---------------------------------- |
 | `.dream()` or `.dreaming()`       | brightness/brillo (value/valor)    |
 | `.swallow()` or `.swallowing()`   | contrast/contraste (value)         |

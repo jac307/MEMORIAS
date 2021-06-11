@@ -35,9 +35,9 @@ Options for *sustantivo* / Opciones para *sustantivo*:
 
 | sustantivos  | Video-still                                  | sustantivos  | Video-still                                  |
 | ------------ | -------------------------------------------- | ------------ | -------------------------------------------- |
-| `cuartos`    | ![cuartos-still](/img/cuartos-still.jpg)     | `aguas`      | ![aguas-still](/img/agua-still.jpg)          |
-| `sonidos`    | ![sonidos-still](/img/cigarra-still.jpg)     | `cigarras    | ![cigarras-still](/img/cigarras-still.jpg)   |
-| `veranos`    | ![veranos-still](/img/verano-still.jpg)      | `cellos`     | ![cellos-still](/img/cello-still.jpg)        |
+| `cuartos`    | ![cuartos-still](/img/cuartos-still.jpg)     | `aguas`      | ![aguas-still](/img/aguas-still.jpg)         |
+| `sonidos`    | ![sonidos-still](/img/sonidos-still.jpg)     | `cigarras    | ![cigarras-still](/img/cigarras-still.jpg)   |
+| `veranos`    | ![veranos-still](/img/veranos-still.jpg)     | `cellos`     | ![cellos-still](/img/cellos-still.jpg)       |
 | `imágenes`   | ![imagenes-still](/img/imagenes-still.jpg)   | `noches`     | ![noches-still](/img/noches-still.jpg)       |
 
 

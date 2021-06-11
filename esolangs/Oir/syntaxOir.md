@@ -34,20 +34,20 @@ Options/Opciones:
 
 | V to-be            | Info      | Verb(o)-1                          | Info                |
 | ------------------ | --------- | ---------------------------------- | ------------------- |
-| `am` or `are`      | source-0  | `.vanish()` or `.vanished()`       | import(ar) Screen   |
-| `do` or `did`      | source-1  | `.open()` or `.opened()`           | import(ar) Video    |
-| `arenT` or `amNot` | source-2  | `.crush()` or `.crushed()`         | import(ar) Cam      |
-| `donT` or `didnT`  | source-3  | `.disappear()` or `.disappeared()` | import(ar) Image(n) |
+| `am` or `are`      | source-0  | `.vanish()` or `.Vanished()`       | import(ar) Screen   |
+| `do` or `did`      | source-1  | `.open()` or `.Opened()`           | import(ar) Video    |
+| `ArenT` or `AmNot` | source-2  | `.crush()` or `.Crushed()`         | import(ar) Cam      |
+| `DonT` or `DidnT`  | source-3  | `.disappear()` or `.Disappeared()` | import(ar) Image(n) |
 
 + `.crushed()`. Imports the default camera in your system. To import others you can add a number inside parentesis as a parameter: / Importa la cámara por defecto del sistema. Para importar otras debes añadir un número dentro de los paréntesis: `.crushed(1)`.
 
 `.disappear()` and `.open()`. These need an extra parameter: / Estas funciones necesitan un parametro:  
 
-| video       | Image       |
-| ----------- | ----------- |
-| `uno_`      | `cuatro_`   |
-| `dos_`      | `cinco_`    |
-| `tres_`     | `seis_`     |
+| image   | photo                                  | video     | Video-still                                |
+| ------- | -------------------------------------- | --------- | ------------------------------------------ |
+| `uno_`  | ![cuartos-still](/img/uno.jpg)         | `cuatro_` | ![aguas-still](/img/cuatro-still.jpg)      |
+| `dos_`  | ![sonidos-still](/img/dos.jpg)         | `cinco_`  | ![cigarras-still](/img/cinco-still.jpg)    |
+| `tres_` | ![veranos-still](/img/tres.jpg)        | `seis_`   | ![cellos-still](/img/seis-still.jpg)       |
 
 Ejemplo / Example:  
 + `did.open(uno_)`  
@@ -83,14 +83,14 @@ Options/Opciones:
 
 | verb-2                            | Info            |
 | --------------------------------- | ---------------------------------- |
-| `.dream()` or `.dreaming()`       | brightness/brillo (value/valor)    |
-| `.swallow()` or `.swallowing()`   | contrast/contraste (value)         |
-| `.scream()` or `.screaming()`     | pixelate/pixelado (value,value)    |
-| `.run()` or `.running()`          | rotate/rotar (value)               |
-| `.play()` or `.playing()`         | scale/escalar (value,value)        |
-| `.have()` or `.having()`          | saturate/saturar (value)           |
-| `.shine()` or `.shinning()`       | scrollX/desplazoX (value)          |
-| `.miss()` or `.missing()`         | scrollY/desplazoY (value)          |
+| `.dream()` or `.Dreaming()`       | brightness/brillo (value/valor)    |
+| `.swallow()` or `.Swallowing()`   | contrast/contraste (value)         |
+| `.scream()` or `.Screaming()`     | pixelate/pixelado (value,value)    |
+| `.run()` or `.Running()`          | rotate/rotar (value)               |
+| `.play()` or `.Playing()`         | scale/escalar (value,value)        |
+| `.have()` or `.Having()`          | saturate/saturar (value)           |
+| `.shine()` or `.Shinning()`       | scrollX/desplazoX (value)          |
+| `.miss()` or `.Missing()`         | scrollY/desplazoY (value)          |
 
 + `I(am).dreaming().over()`. Changes the brightness will the default value, to change this default you add a valor. / Cambie el brillo con el valor por defecto, si quieres cambiar éste debes añadir un valor: `I(am).dreaming(0.5).over()`  
 

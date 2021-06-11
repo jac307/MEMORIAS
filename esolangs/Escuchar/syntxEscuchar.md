@@ -40,7 +40,6 @@ Options for *sustantivo* / Opciones para *sustantivo*:
 | `veranos`    | ![veranos-still](/img/veranos-still.jpg)     | `cellos`     | ![cellos-still](/img/cellos-still.jpg)       |
 | `imágenes`   | ![imagenes-still](/img/imagenes-still.jpg)   | `noches`     | ![noches-still](/img/noches-still.jpg)       |
 
-
 ## Time for videos / Time para videos
 *time* $ *imágenes:* *sustantivo* | Example:   
 + `Hoy 1 0.8 $ aguas` -- changes frame-rate fo the video / cambia el frame rate del video
@@ -144,6 +143,8 @@ Examples:
 + `tempestuosas (lejanas 0 1 $ claras 0.5) $ haciendo 0.5 $ textos: aguas` -- brightness go up and down / el brillo sube y baja
 + `ruidosas $ atravezando (lejanas 1 10 $ claras 1) $ imágenes: "here I am, alone"` -- text goes bigger and smaller / el texto se agranda y se achica  
 
+## Sentece to silence everything / Oración para silenciar todo
++ `silencio` -- evaluate just this word / evalúa únicamente esta palabra
 
 ## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  

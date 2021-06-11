@@ -27,11 +27,11 @@ ____________________________________________
 
 Options for *out* / Opciones para *out*  
 
-| out          | Info           |
-| ------------ | -------------- |
-| `everything` | centre/centro  |
-| `some`       | rigth/derecha  |
-| `others`     | left/izquierda |
+| out                        | Info           |
+| -------------------------- | -------------- |
+| `everything`, `everything` | centre/centro  |
+| `some`, `here`             | rigth/derecha  |
+| `others`, `there`          | left/izquierda |
 
 Options for *verb* / Opciones para *verb*  
 
@@ -71,12 +71,14 @@ Options / Opciones:
 
 
 ## HPF, LPF: special-Verb and ing-verb / HPF, LPF: verbo-especial y verbo-ing
-*special-verb* + *verb* + *ing-verb* >> *out* | Example:  
-+ `am traveling feeling >> everything` -- add a high-pass-filter to a single frequency / añade un high-pass-filter a una sóla frecuencia  
+*special-verb* + (*verb*) + *ing-verb* >> *out* | Example:  
++ `am (traveling) feeling >> everything` -- add a high-pass-filter to a single frequency / añade un high-pass-filter a una sóla frecuencia  
 *special-verb* + (*verb* + *and* + *verb*) + *ing-verb* >> *out* | Example:
 + `am (traveling and moving) feeling >> everything` -- add the filter to the couple of frequencies / añade el filtro al par de frecuencias  
 *special-verb* + (*verb* + *noun*) + *ing-verb* >> *out* | Example:  
 + `am (traveling places) feeling >> everything ` -- add the filter to the multiplied frequencies / añade el filtro a las frecuencias multiplicadas  
+
+Everything in-between the *special-verb* and the *ing-verb* must be inside parenthesis / Todo lo que está entre el *special-verb* y el *ing-verb* debe ir entre paréntesis
 
 Options for *special-verb* / Opciones para *special-verb*  
 
@@ -113,6 +115,9 @@ Options / Opciones
 | `_diez`    | 10      |
 | `_quince`  | 15      |
 | `_veinte`  | 20      |
+
+## Sentece to silence everything / Oración para silenciar todo
++ `silence` -- evaluate just this word / evalúa únicamente esta palabra
 
 ## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  

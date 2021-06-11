@@ -1,7 +1,7 @@
 ##JSoLang ver
 
 main = x:allRules* { return "##punctual\n" + x.join("") }
-allRules = am / are / have / has / travel / travelled / travelling / go / went / going / gone / move / moved / moving / sit / sat / sitting / happen / happened / happening / quit / quitting / leave / left / leaving / scape / scaped / scaping / and / places / sounds / noises / cities / lights / images / countries / textures / hating / liking / running / feeling / loving / falling / touching / wanting / almost / everything / some / others / _cinco / _diez / _quince / _veinte / I / They / Places / Cities / Sounds / anyCharacter
+allRules = am / are / have / has / travel / Travelled / trAvelling / go / went / Going / gOne / move / Moved / mOving / sit / sat / Sitting / happen / Happened / hAppening / quit / Quitting / leave / left / Leaving / scape / Scaped / scAping / and / places / sounds / noises / cities / lights / images / countries / textures / hating / liking / running / feeling / loving / falling / touching / wanting / almost / everything / Everywhere / some / here / others / there / _cinco / _diez / _quince / _veinte / I / They / Places / Cities / Sounds / silence / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -14,30 +14,30 @@ have = "have"i { return "lpf" }
 has = "has"i { return "lpf" }
 
 // main sound wave
-travel = "travel"i { return "sin [261.626, 262.079]" }
-travelled = "travelled"i { return "sin [241.626, 242.079]" }
-travelling = "travelling"i { return "sin [231.626, 232.079]" }
+travel = "travel" { return "sin [261.626, 262.079]" }
+Travelled = "Travelled" { return "sin [241.626, 242.079]" }
+trAvelling = "trAvelling" { return "sin [231.626, 232.079]" }
 go = "go"i { return "sin [227.652, 208.012, 228.072]" }
 went = "went"i { return "sin [217.652, 198.012, 218.072]" }
-going = "going"i { return "sin [218.012, 219.012, 237.652, 238.072]" }
-gone = "gone"i { return "sin [207.652, 188.012, 208.072]" }
+Going = "Going"i { return "sin [218.012, 219.012, 237.652, 238.072]" }
+gOne = "gOne"i { return "sin [207.652, 188.012, 208.072]" }
 move = "move"i { return "sin [349.228, 349.833, 466.163]" }
-moved = "moved"i { return "sin [339.228, 339.833, 366.163]" }
-moving = "moving"i { return "sin [329.228, 329.833, 400.163]" }
+Moved = "Moved"i { return "sin [339.228, 339.833, 366.163]" }
+mOving = "mOving"i { return "sin [329.228, 329.833, 400.163]" }
 sit = "sit"i { return "sin [110, 110.190, 195.997]" }
 sat = "sat"i { return "sin [100, 100.190, 145.997]" }
-sitting = "sitting"i { return "sin [100, 100.190, 125.997]" }
+Sitting = "Sitting"i { return "sin [100, 100.190, 125.997]" }
 happen = "happen"i { return "saw [70, 70.190, 80.997]" }
-happened = "happened"i { return "saw [60, 60.190, 65.997]" }
-happening = "happening"i { return "saw [65, 65.190, 70.997]" }
+Happened = "Happened"i { return "saw [60, 60.190, 65.997]" }
+hAppening = "hAppening"i { return "saw [65, 65.190, 70.997]" }
 quit = "quit"i { return "saw [161.626, 162.079]" }
-quitting = "quitting"i { return "saw [121.626, 122.079]" }
+Quitting = "Quitting"i { return "saw [121.626, 122.079]" }
 leave = "leave"i { return "tri [107.652, 188.012, 108.072]" }
 left = "left"i { return "tri [117.652, 168.012, 118.072]" }
-leaving = "leaving"i { return "tri [100.652, 110.012, 100.072]" }
+Leaving = "Leaving"i { return "tri [100.652, 110.012, 100.072]" }
 scape = "scape"i { return "tri [100.626, 110.079]" }
-scaped = "scaped"i { return "tri [90.626, 102.079]" }
-scaping = "scaping"i { return "tri [120.626, 180.079]" }
+Scaped = "Scaped"i { return "tri [90.626, 102.079]" }
+scAping = "scAping"i { return "tri [120.626, 180.079]" }
 
 // operator or connector
 and = "and"i { return "+" }
@@ -67,8 +67,11 @@ almost = "almost"i { return "db" }
 
 // output
 everything = "everything"i { return "centre" }
+Everywhere = "Everywhere"i { return "centre" }
 some = "some"i { return "right" }
+here = "here"i { return "right" }
 others = "others"i { return "left" }
+there = "there"i { return "left" }
 
 // cross-over
 _cinco = "_cinco"i { return "<> 5" }
@@ -83,3 +86,4 @@ They = "They"i { return "" }
 Places = "Places"i { return "" }
 Cities = "Cities"i { return "" }
 Sounds = "Sounds"i { return "" }
+silence = "silence"i { return "" }

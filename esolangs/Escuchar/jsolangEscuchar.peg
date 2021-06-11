@@ -51,7 +51,7 @@ aguas = "aguas"i { return "\"https://github.com/jac307/memoriasSamples/blob/mast
 sonidos = "sonidos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/sonidos.mov?raw=true\"" }
 cigarras = "cigarras"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarras.mov?raw=true\"" }
 veranos = "veranos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/veranos.mov?raw=true\"" }
-cellos = "cellos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true\"" }
+cellos = "cellos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cellos.mov?raw=true\"" }
 imágenes = "imágenes"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagenes.mov?raw=true\"" }
 noches = "noches"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/noches.mov?raw=true\"" }
 

@@ -45,9 +45,9 @@ Options/Opciones:
 
 | image   | photo                                  | video     | Video-still                                |
 | ------- | -------------------------------------- | --------- | ------------------------------------------ |
-| `uno_`  | ![cuartos-still](/img/uno.jpg)         | `cuatro_` | ![aguas-still](/img/cuatro-still.jpg)      |
-| `dos_`  | ![sonidos-still](/img/dos.jpg)         | `cinco_`  | ![cigarras-still](/img/cinco-still.jpg)    |
-| `tres_` | ![veranos-still](/img/tres.jpg)        | `seis_`   | ![cellos-still](/img/seis-still.jpg)       |
+| `uno_`  | ![uno-image](/img/uno.jpeg)             | `cuatro_` | ![cuatro-still](/img/cuatro-still.jpeg)   |
+| `dos_`  | ![dos-img](/img/dos.jpg)               | `cinco_`  | ![cinco-still](/img/cinco-still.jpeg)      |
+| `tres_` | ![tres-img](/img/tres.jpg)             | `seis_`   | ![seis-still](/img/seis-still.jpeg)        |
 
 Ejemplo / Example:  
 + `did.open(uno_)`  

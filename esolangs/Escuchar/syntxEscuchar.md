@@ -26,23 +26,123 @@ ____________________________________________
 This syntax uses words and structures in Spanish / Esta sintaxis usa palabras y estructuras en Español.
 
 ## Basic sentece to play a video: Noun / Oración básica para reproducir un video: Suntantivo
-*sustantivo* | Example:   
-+ `aguas` -- plays the video linked to this word / reproduce el video que está ligado a esta palabra.  
+*textos:* *sustantivo* | Example:   
++ `textos: aguas` -- plays the video linked to this word / reproduce el video que está ligado a esta palabra.
+
+To play videos, `textos:` must be before the noun / Para reproducir videos, `textos:` siempre debe ir antes del sustantivo.    
+
+Options for *sustantivo* / Opciones para *sustantivo*:  
+
+| sustantivos  | Video-still                                  | sustantivos  | Video-still                                  |
+| ------------ | -------------------------------------------- | ------------ | -------------------------------------------- |
+| `cuartos`    | ![cuartos-still](/img/cuartos-still.jpg)     | `aguas`      | ![aguas-still](/img/agua-still.jpg)          |
+| `sonidos`    | ![sonidos-still](/img/cigarra-still.jpg)     | `cigarras    | ![cigarras-still](/img/cigarras-still.jpg)   |
+| `veranos`    | ![veranos-still](/img/verano-still.jpg)      | `cellos`     | ![cellos-still](/img/cello-still.jpg)        |
+| `imágenes`   | ![imagenes-still](/img/imagenes-still.jpg)   | `noches`     | ![noches-still](/img/noches-still.jpg)       |
+
+
+## Time for videos / Time para videos
+*time* $ *imágenes:* *sustantivo* | Example:   
++ `Hoy 1 0.8 $ aguas` -- changes frame-rate fo the video / cambia el frame rate del video
+
+Options / Opciones: `Ayer`, `Hoy`  
+Must have two values: Dur Offset / Debe tener dos parámetros: Dur Offset  
+
+
+## Verb ser-estar for videos / Verbo ser-estar para videos  
+*time* $ *verboSerEstar* $ *imágenes:* *sustantivo* | Example:  
++ `estoy 0.5 $ aguas` -- creates a circle mask / crea una máscara circular  
 
 Options / Opciones:  
 
-| sustantivos  | Video-still                                    |
-| ------------ | ---------------------------------------------- |
-| `cuartos`    | ![MEMORIAS'S IMAGE](/img/aguas-still.jpg)      |
-| `aguas`      | ![MEMORIAS'S IMAGE](/img/agua-still.jpg)       |
+| verboSerEstar | Mask-Info                                                                              |
+| ------------- | -------------------------------------------------------------------------------------- |
+| `estoy`       | circular, 1-value/valor: size/tamaño; 0.0 - 1.0                                        |
+| `estamos`     | circular-2, 2-values/valores: size,anchor-point / tamaño-anclaje; 0.0 - 1.0            |
+| `estábamos`   | cuadrada, 1-value/valor: size/tamaño; 0.0 - 1.0                                        |
+| `estoy`       | rectangular: 4-values/valores: top,right,bottom,left / arriba,der,abajo,izq; 0.0 - 1.0 |
+
+Negative numbers inside parenthesis  / Los números negativos van en paréntesis  
 
 
+## Basic sentece to visualize text / Oración básica para visualizar texto
+*imágenes:* *""* | Example:   
++ `imágenes: "here I am, alone"`  
+
+For text, `imágenes:` must be written before the text you want to visualize. This text should be written inside quotation marks `"my text"`  
+Para texto, `imágenes:` debe de estar escrito antes del texto que se quiere visualizar. Este texto debe ir entre comillas `"my text"`    
 
 
+## Verb: for video & text / Verbo: para video & texto
+*verbo* $ *textos:* *sustantivo* | Example:   
++ `haciendo 0.5 $ textos: aguas` -- changes the size of the video / cambia el tamaño del video
+
+*verbo* $ *imágenes:* *""* | Example:   
++ `atravezando 5 $ imágenes: "here I am, alone"` -- changes the size of the text / cambia el tamaño del texto
+
+Options / Opciones:  
+
+| verbos        | Apply-in /Aplicado-en | Info                                                     |
+| ------------- | --------------------- | -------------------------------------------------------- |
+| `sentada`     | videos, text(o)       | coord: 2-values/valores: x,y; (-1.0) - 1.0               |
+| `escuchando`  | videos, text(o)       | pos-X: 1-value/valor: (-1.0) - 1.0                       |
+| `recordando`  | videos, text(o)       | pos-Y: 1-value/valor: (-1.0) - 1.0                       |
+| `haciendo`    | videos                | size/tam: 1-value/valor: 1++=bigger, --1=smaller         |
+| `tocando`     | videos                | width/ancho: 1-value/valor: 1++=bigger, --1=smaller      |
+| `imaginando`  | videos                | height/alto: 1-value/valor: 1++=bigger, --1=smaller      |
+| `atravezando` | text                  | size/tam: 1-value/valor: 1++                             |
+| `soñando`     | text                  | font: 1-string: `"name-nombre"`                          |
 
 
+## Adjective: for video & text / Adjetivo: para video & texto
+*verbo* $ *adjetivos* $ *textos:* *sustantivo* | Example:   
++ `tempestuosas 0.5 $ haciendo 0.5 $ textos: aguas` -- changes the brightness of the video / cambia el brillo del video
+
+*verbo* $ *adjetivos* $ *imágenes:* *""* | Example:   
++ `ruidosas $ atravezando 5 $ imágenes: "here I am, alone"` -- text in bold / texto en negritas
+
+Options / Opciones:  
+
+| adjectivos      | Apply-in /Aplicado-en | Info                                                      |
+| --------------- | --------------------- | --------------------------------------------------------- |
+| `tempestuosas`  | videos                | brightness/brillo: 1-value/valor: 1++=more, --1=less      |
+| `transformadas` | videos                | blur: 1-value/valor: 1++=more, --1=less                   |
+| `extrañas`      | videos                | opacity/opacidad: 1-value/valor: 0.0 - 1, 1=none/sin      |
+| `diferentes`    | videos                | contrast(e): 1-value/valor: 1++=more, --1=less            |
+| `oscuras`       | videos                | grayscale: 1-value/valor: 1++=more, --1=less              |
+| `fuertes`       | text                  | rgba: 4-values/valores, each channel: 0.0 - 1, 0=none/sin |
+| `aprendidas`    | text                  | strike/tachado: no value/valor                            |
+| `ruidosas`      | text                  | bold/negritas: no value/valor                             |
+| `silenciosas`   | text                  | italic(as): no value/valor                                |
+
+## Special adjectives: dynamic values / Adjetivos especiales: valores dinámicos
+They can be used in any function in replacement of a single value. They must be written inside parenthesis.
+Pueden ser usados en cualquier función reemplazando un valor único. Deben ser escritos dentro de paréntesis.
+
+### Option 1 / Opción 1
+(*rápidas*)
+
+| adj-esp-1      | Values                                    | Info                                                        |
+| -------------- | ----------------------------------------- | ----------------------------------------------------------- |
+| `rápidas`      | cycles(time) initial-value end-value      | in an specific time, it animates from one value to another  |
+| `rápidas`      | ciclos(tiempo) valor-inicial valor-final  | en un tiempo específico, anima de un valor a otro           |
+
+Examples:  
++ `tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas` -- the brightness changes in 5 cycles / el brillo cambia en 5 ciclos
++ `ruidosas $ atravezando (rápidas 10 1 10) $ imágenes: "here I am, alone"` -- text grows in 5 cycles / el texto crece en 5 ciclos
 
 
+### Option 2 / Opción 2
+(*lejanas* $ *claras*) -- These always go together / siempre van juntos
+
+| adj-esp-2     | Values       | Info                                                        |
+| ------------- | ------------ | ----------------------------------------------------------- |
+| `lejanas`     | val-1 val-2  | comes and go / va y viene                                   |
+| `claras`      | freq         | velocity of animation / velocidad de la animación           |
+
+Examples:  
++ `tempestuosas (lejanas 0 1 $ claras 0.5) $ haciendo 0.5 $ textos: aguas` -- brightness go up and down / el brillo sube y baja
++ `ruidosas $ atravezando (lejanas 1 10 $ claras 1) $ imágenes: "here I am, alone"` -- text goes bigger and smaller / el texto se agranda y se achica  
 
 
 ## Empty string / String vacíos
@@ -50,8 +150,8 @@ This is a list of words that can be added in-between words that produce an empty
 Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `Yo`, `un`, `una`, `mi`, `mis`, `el`, `los`, `la`, `las` | Example:  
-+ `I`  
++ `mis tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas`  
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `;` (semicolon) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
-+ `I`
++ `tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas; ruidosas $ atravezando 5 $ imágenes: "here I am, alone"`

@@ -46,13 +46,13 @@ imagenes = "imagenes"i { return "text" }
 textos = "textos"i { return "video" }
 
 // URLs
-cuartos = "cuartos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/aguas.mov?raw=true\"" }
-aguas = "aguas"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/agua.mov?raw=true\"" }
-sonidos = "sonidos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarra.mov?raw=true\"" }
+cuartos = "cuartos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cuartos.mov?raw=true\"" }
+aguas = "aguas"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/aguas.mov?raw=true\"" }
+sonidos = "sonidos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/sonidos.mov?raw=true\"" }
 cigarras = "cigarras"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cigarras.mov?raw=true\"" }
-veranos = "veranos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/verano.mov?raw=true\"" }
+veranos = "veranos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/veranos.mov?raw=true\"" }
 cellos = "cellos"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/cello.mov?raw=true\"" }
-imágenes = "imágenes"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagen.mov?raw=true\"" }
+imágenes = "imágenes"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/imagenes.mov?raw=true\"" }
 noches = "noches"i { return "\"https://github.com/jac307/memoriasSamples/blob/master/samples/videoSamples/noches.mov?raw=true\"" }
 
 // //////////////////////////////////////

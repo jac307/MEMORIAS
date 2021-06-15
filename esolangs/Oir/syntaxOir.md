@@ -28,7 +28,7 @@ This syntax uses words and structures in English / Esta sintaxis usa palabras y 
 
 ## Sentece to import multimedia sources / Oración para importar fuentes multimedia
 *verb to-be* + *verb-1* | Example:  
-+ `am.vanished()` -- imports a screen as source-0 / importa la pantalla en la souce-0
++ `am.Vanished()` -- imports a screen as source-0 / importa la pantalla en la souce-0
 
 Options/Opciones:  
 
@@ -55,7 +55,7 @@ Ejemplo / Example:
 
 ## Basic sentence to visualice source / Oración básica para visualizar source
 *subject(verb to-be)* + *out* | Example:  
-+ `am.vanished(); I(am).over()` -- visualizes imported screen / visualiza la pantalla importada  
++ `am.Vanished(); I(am).over()` -- visualizes imported screen / visualiza la pantalla importada  
 
 Options/Opciones:  
 

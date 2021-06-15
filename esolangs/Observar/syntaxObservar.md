@@ -55,7 +55,7 @@ Options for empty-space / Opciones para espacio vacío: `no`, `si`, `que`, `sin`
 
 ### Numbers / Números
 *número* + *verbo* | Example:  
-+ `uno_ olvido olvido` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
++ `uno_ olvido olvido:2` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
 
 Opciones / Options:  
 
@@ -64,16 +64,16 @@ Opciones / Options:
 | `uno_`, `dos_`, `tres_`      | plays left and right / reproduce izquierda y derecha                                 |
 | `cuatro_`, `cinco_`, `seis_` | needs a value (double), from then it pans / necesita un valor (doble), de ahí panea  |
 
-+ `uno_ olvidando estrañando*3`
-+ `cuatro_ (0.2) olvidando estrañando*3`
++ `uno_ olvido olvido:1*3`
++ `cuatro_ (0.2) olvido olvido:1*3`
 
 ### Subject / Sujeto
 *número* + *sujeto* + *verbo* | Example:  
-+ `uno_ Ella(8) escucha*8` -- acepts int. Makes a granulation efect cutting the samples in the value that is given / acepta un entero. Hace un efecto de granulación cortando los samples en el valor que le des.
++ `uno_ Ella(8) sueña*4` -- acepts int. Makes a granulation efect cutting the samples in the value that is given / acepta un entero. Hace un efecto de granulación cortando los samples en el valor que le des.
 
 Options / Opciones: `Yo`, `yo`, `Ella`, `ella`, `Tu`, `tu`
 
-+ `Yo(18) <recuerdo*4 olvido*4> pienso*2`
++ `Yo(6) <recuerdo*4 olvido*4> pienso*2`
 + `Ella(4) no piensa sueña*4`
 
 ### Verb Estar / Verbo Estar
@@ -131,21 +131,13 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 
 Multiple nouns can be added (up to 5) / Multiples sustantivos pueden ser añadido (hasta 5)  
 
-### Adjective-2 / Adjetivos-2
-*verbo* + *adjetivo* + *sustantivo* + *adjetivo-2* | Examples:  
-+ `olvidar sueños negros (1.0)` -- the value of sueños(volume) is now random (range: 0 - 2) / el valor de sueños(volumen) is ahora aleatorio (rango: 0 - 2)  
-
-This is an alternative option to create random values to nouns, options: / Esta es una opción alternativa para crear valores aleatorios en los sustantivos, options  
-
-`negro`, `negros`, `obscuro`, `obscuros`  
-
 ## Empty string / String vacíos
 This is a list of words that can be added in-between words that produce an empty string.  
 Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `en`, `sobre`, `el`, `El`, `la`, `las`, `Puerta`, `Puertas`, `Un`, `un`, `unos`, `Perro`, `también`, `mi`, `mis`, `con`, `a`, `A`, `veces`, `No`, `sobre`, `ajeno`, `ajenos` | Example:  
-+ `las Palabras han(4) estado(2.0) pensado olvidado:5 sueños negros (1.0) ajenos`
++ `la Puerta olvida soñar con blancos(4) sueños(1.3 0.8)`
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
-+ `olvido brillantes(20) sueños(1.3), extraño*2 recuerdos (0.5) sobre pasillos (0.0 1.0)`
++ `la Puerta olvida soñar con blancos(4) sueños(1.3 0.8). extraño*2 recuerdos (0.5) sobre pasillos (0.0 1.0)`

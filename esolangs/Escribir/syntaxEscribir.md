@@ -52,7 +52,7 @@ Options for empty-space / Opciones para espacio vacío: `me`, `que`, `no`, `se`
 
 ### Numbers / Números
 *número* + *verbo* | Example:  
-+ `uno_ oir oir` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
++ `uno_ oir:0 oir:2` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
 
 Opciones / Options:  
 
@@ -61,8 +61,8 @@ Opciones / Options:
 | `uno_`, `dos_`, `tres_`      | plays left and right / reproduce izquierda y derecha                                 |
 | `cuatro_`, `cinco_`, `seis_` | needs a value (double), from then it pans / necesita un valor (doble), de ahí panea  |
 
-+ `uno_ oyendo escuchando*3`
-+ `cuatro_ (0.2) oyendo escuchando*3`
++ `uno_ oyen escuchan*3`
++ `cuatro_ (0.2) oyen escuchan*3`
 
 ### Article / Artículo
 *número* + *artículo* + *verbo* | Example:  
@@ -131,8 +131,8 @@ This is a list of words that can be added in-between words that produce an empty
 Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `Yo`, `mi`, `mis`, `su`, `sus`, `un`, `una`, `Un`, `Una`, `dedo`, `con`, `ajeno`, `ajenos` | Example:  
-+ `Yo amo(2.0) escuchar oir no ver:5 presurosas (35) formas (0.5) ajenos sonidos (-0.2)`
++ `Yo amo(2.0) escuchar oir no ver:5 presurosas (35) formas (0.8 1.0) ajenos sonidos (-0.2)`
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `,` (comma) / Para añadir oraciones múltiples, éstas van separadas por `,` (coma) | Example:  
-+ `escucha vívidas(20) formas(1.3), observó*2 sonidos (0.5) texturas (0.0 1.0)`
++ `escucha vívidas(20) formas(1.3), observo*2 sonidos (0.5) texturas (0.0 1.0)`

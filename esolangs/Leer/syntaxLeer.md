@@ -52,7 +52,7 @@ Options for empty-space / Opciones para espacio vacío: `am`, `is`, `are`, `was`
 
 ### Numbers / Números
 *number* + *verb* | Example:  
-+ `one_ hear hear` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
++ `one_ hear hear:2` -- plays left and right channels. Must have two or more samples / reproduce en los canales izquierda y derecha. Debe tener más de dos samples.
 
 Opciones / Options:  
 
@@ -95,14 +95,14 @@ Options / Opciones: `always`, `Sometimes`, `sometimes`, `Often`, `often`, `rarel
 ### ing-verb(o)s
 *Verb* + *ing-verb* | Examples:  
 + `hears multiplying(20)` -- plays a random sample of the *oir-folder* up to its 20th file (int value) / reproduce un sample de manera aleatoria del *folder-oir* hasta su archivo 20 (valor int)  
-+ `hears watchs multiplying(20)` -- same but now with two folder-samples / lo mismo pero ahora con dos folders the samples.  
++ `hears watches multiplying(20)` -- same but now with two folder-samples / lo mismo pero ahora con dos folders the samples.  
 
 Options / Opciones: `multiplying`, `imagining`, `swinging`, `lying`  
 
 ### Noun / Sustantivos
 *verb* + *ing-verb* + *nouns* | Examples:  
 + `hears multiplying(20) lights(1.3)` -- highest the volume / sube el volumen
-+ `hears watchs multiplying(20) lights(1.3 0.8)` -- highest the volume of the first sample, lowest the volume of the second / sube el volumen del primer sample, baja el volumen del segundo
++ `hears watches multiplying(20) lights(1.3 0.8)` -- highest the volume of the first sample, lowest the volume of the second / sube el volumen del primer sample, baja el volumen del segundo
 
 Options (all must have a double-value in parentesis) / Opciones (todos deben tener un valor-doble en paréntesis):  
 
@@ -131,7 +131,7 @@ This is a list of words that can be added in-between words that produce an empty
 Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `myself`, `on`, `in`, `that`, `The`, `the`, `to`, `with`, `everything`, `anything`, `suspended`, `without`, `through`, `Through`, `down` | Example:  
-+ `wanted(2.0) to hear listening not watching suspended (35) spaces (0.5) without sounds (-0.2)`
++ `wanted(2.0) to hear listening not watching suspended multiplying (35) spaces (1) without sounds (-0.2)`
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `.` (dot) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  

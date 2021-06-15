@@ -1,7 +1,7 @@
 ##JSoLang oir
 
 main = x:allRules* { return "##hydra\n" + x.join("") }
-allRules = am / are / do / did / ArenT / AmNot / DonT / DidnT / vanish / Vanished / crush / Crushed / open / Opened / disappear / Disappeared / uno_ / dos_ / tres_ / cuatro_ / cinco_ / seis_ / I / They / silence / dream / Dreaming / swallow / Swallowing / scream / Screaming / run / Running / play / Playing / have / Having / shine / Shinning / miss / Missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
+allRules = am / are / do / did / ArenT / AmNot / DonT / DidnT / vanish / Vanished / crush / Crushed / open / Opened / disappear / Disappeared / uno_ / dOs_ / tres_ / cuatro_ / cinco_ / seis_ / I / They / silence / dream / Dreaming / swallow / Swallowing / scream / Screaming / run / Running / play / Playing / have / Having / shine / Shinning / miss / Missing / oceans / songs / skies / voices / sand / beds / deaths / tales / noises / mouths / over / all / any / whole / vast / and / next / after / that / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -29,7 +29,7 @@ Disappeared = "Disappeared" { return "initImage" }
 
 // img and video url
 uno_ = "uno_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/0/01/Cootes_Paradise_branches.jpg\"" }
-dos_ = "dos_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/a/a5/Red-flowers-at-cerro-pelon.jpg\"" }
+dOs_ = "dOs_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/a/a5/Red-flowers-at-cerro-pelon.jpg\"" }
 tres_ = "tres_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/b/b2/Monarch-at-cerro-pelon.jpg\"" }
 cuatro_ = "cuatro_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/2/21/Branches-in-quebec.webm\"" }
 cinco_ = "cinco_"i { return "\"https://upload.wikimedia.org/wikipedia/commons/a/ab/Frogs-in-quebec.webm\"" }

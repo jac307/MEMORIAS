@@ -23,7 +23,7 @@ ____________________________________________
 
 ## Basic sentece to play sound / Oración bñasica para reproducir sonido
 *verb* >> *out* | Example:  
-+ `traveling >> everything ` -- plays a frequency in both channels (left-right) / reproduce una frecuencia en ambos canales (izq-der)
++ `trAvelling >> everything` -- plays a frequency in both channels (left-right) / reproduce una frecuencia en ambos canales (izq-der)
 
 Options for *out* / Opciones para *out*  
 
@@ -52,13 +52,13 @@ Options for *verb* / Opciones para *verb*
 
 ## Sum frequencies / Sumar frequencias
 *verb* + *and* + *verb* >> *out* | Example:  
-+ `traveling and moving >> everything ` -- sum operation of two frequencies / operación que suma dos frecuencias
++ `trAvelling and mOving >> everything` -- sum operation of two frequencies / operación que suma dos frecuencias
 
 Only option / Única opción: `and`  
 
 ## Noun / Sustantivo
 *verb* + *noun* >> *out* | Example:  
-+ `traveling places >> everything ` -- multiplies the frequency by *sin 0.2* / multiplica la frecuencia por *sin 0.2*  
++ `trAvelling places >> everything` -- multiplies the frequency by *sin 0.2* / multiplica la frecuencia por *sin 0.2*  
 
 Options / Opciones:  
 
@@ -72,11 +72,11 @@ Options / Opciones:
 
 ## HPF, LPF: special-Verb and ing-verb / HPF, LPF: verbo-especial y verbo-ing
 *special-verb* + (*verb*) + *ing-verb* >> *out* | Example:  
-+ `am (traveling) feeling >> everything` -- add a high-pass-filter to a single frequency / añade un high-pass-filter a una sóla frecuencia  
++ `am (trAvelling) feeling >> everything` -- add a high-pass-filter to a single frequency / añade un high-pass-filter a una sóla frecuencia  
 *special-verb* + (*verb* + *and* + *verb*) + *ing-verb* >> *out* | Example:
-+ `am (traveling and moving) feeling >> everything` -- add the filter to the couple of frequencies / añade el filtro al par de frecuencias  
++ `am (trAvelling and mOving) feeling >> everything` -- add the filter to the couple of frequencies / añade el filtro al par de frecuencias  
 *special-verb* + (*verb* + *noun*) + *ing-verb* >> *out* | Example:  
-+ `am (traveling places) feeling >> everything ` -- add the filter to the multiplied frequencies / añade el filtro a las frecuencias multiplicadas  
++ `am (trAvelling places) feeling >> everything` -- add the filter to the multiplied frequencies / añade el filtro a las frecuencias multiplicadas  
 
 Everything in-between the *special-verb* and the *ing-verb* must be inside parenthesis / Todo lo que está entre el *special-verb* y el *ing-verb* debe ir entre paréntesis
 
@@ -98,23 +98,23 @@ Options for *ing-verb* / Opciones para *ing-verb*
 
 ## Volume / Volumen
 *verb* + *almost* >> *out* | Example:  
-+ `traveling (-15)almost >> everything ` -- lowering volume / bajando el volumen  
++ `trAvelling *(-15)almost >> everything` -- lowering volume / bajando el volumen  
 
 Only option / Única opción: `almost`  
 Must have a value before; negative numbers inside parenthesis  / Debe tener un valor antes; números negativos van en paréntesis  
 
 ## Numbers / Números
 *verb* + *almost* >> *out* <> *number* | Example:  
-+ `traveling (-15)almost >> everything <> _cinco ` -- when eval, this sound will fade-in in 5 seconds / cuando se evalúa, este sonido aparecerá en cinco segundos  
++ `trAvelling *(-5)almost >> everything _cinco` -- when eval, this sound will fade-in in 5 seconds / cuando se evalúa, este sonido aparecerá en cinco segundos  
 
 Options / Opciones  
 
 | number     | Seconds |
 | ---------- | ------- |
-| `_cinco`   | 5       |
-| `_diez`    | 10      |
-| `_quince`  | 15      |
-| `_veinte`  | 20      |
+| `_cinco`   | <> 5    |
+| `_diez`    | <> 10   |
+| `_quince`  | <> 15   |
+| `_veinte`  | <> 20   |
 
 ## Sentece to silence everything / Oración para silenciar todo
 + `silence` -- evaluate just this word / evalúa únicamente esta palabra
@@ -124,8 +124,8 @@ This is a list of words that can be added in-between words that produce an empty
 Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
 
 `I`, `They`, `Places`, `Sounds`, `Cities` | Example:  
-+ `I am traveling feeling >> everything`  
++ `I am (trAvelling) feeling *(-5)almost >> everything _cinco`  
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `;` (semicolon) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
-+ `I am traveling feeling >> some; I have traveled running >> others`
++ `I am (trAvelling) feeling *(-5)almost >> some _cinco; I have (Travelled) running >> others _diez`

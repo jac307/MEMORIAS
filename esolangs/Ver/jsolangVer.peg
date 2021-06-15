@@ -43,10 +43,10 @@ scAping = "scAping"i { return "tri [120.626, 180.079]" }
 and = "and"i { return "+" }
 
 // mult
-places = "places"i { return "* sin 0.2" }
-sounds = "sounds"i { return "* sin 0.5" }
+places = "places" { return "* sin 0.2" }
+sounds = "sounds" { return "* sin 0.5" }
 noises = "noises"i { return "* sin 1" }
-cities = "cities"i { return "* tri 0.2" }
+cities = "cities" { return "* tri 0.2" }
 lights = "lights"i { return "* tri 0.5" }
 images = "images"i { return "* tri 0.8" }
 countries = "countries"i { return "* saw 0.2" }
@@ -83,7 +83,7 @@ _veinte = "_veinte"i { return "<> 20" }
 // empty string
 I = "I"i { return "" }
 They = "They"i { return "" }
-Places = "Places"i { return "" }
-Cities = "Cities"i { return "" }
-Sounds = "Sounds"i { return "" }
+Places = "Places" { return "" }
+Cities = "Cities" { return "" }
+Sounds = "Sounds" { return "" }
 silence = "silence"i { return "" }

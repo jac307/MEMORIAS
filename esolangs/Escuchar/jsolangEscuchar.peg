@@ -1,7 +1,7 @@
 ##JSoLang escuchar
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imágenes / textos / cuartos / aguas / sonidos / cigarras / veranos / cellos / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
+allRules = Ayer / Hoy / estoy / estamos / estaba / estábamos / sentada / escuchando / recordando / haciendo / tocando / imaginando / atravezando / soñando / tempestuosas / transformadas / extrañas / diferentes / oscuras / fuertes / aprendidas / ruidosas / silenciosas / rápidas / lejanas / claras / imagen / textos / cuartos / aguas / sonidos / cigarras / veranos / cellos / imágenes / noches / Yo / un / una / mi / mis / el / los / la / las / silencio / anyCharacter
 anyCharacter = .
 
 // //////////////////////////////////////
@@ -42,7 +42,7 @@ lejanas = "lejanas"i { return "range" }
 claras = "claras"i { return "sin" }
 
 // transform
-imagenes = "imagenes"i { return "text" }
+imagen = "imagen"i { return "text" }
 textos = "textos"i { return "video" }
 
 // URLs
@@ -57,13 +57,4 @@ noches = "noches"i { return "\"https://github.com/jac307/memoriasSamples/blob/ma
 
 // //////////////////////////////////////
 // empty string
-Yo = "Yo"i { return "" }
-un = "un"i { return "" }
-una = "una"i { return "" }
-mi = "mi"i { return "" }
-mis = "mis"i { return "" }
-el = "el"i { return "" }
-los = "los"i { return "" }
-la = "la"i { return "" }
-las = "las"i { return "" }
 silencio = "silencio"i { return "" }

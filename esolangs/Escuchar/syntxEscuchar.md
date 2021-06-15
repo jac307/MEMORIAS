@@ -27,9 +27,9 @@ This syntax uses words and structures in Spanish / Esta sintaxis usa palabras y 
 
 ## Basic sentece to play a video: Noun / Oración básica para reproducir un video: Suntantivo
 *textos:* *sustantivo* | Example:   
-+ `textos: aguas` -- plays the video linked to this word / reproduce el video que está ligado a esta palabra.
++ `textos(aguas)` -- plays the video linked to this word / reproduce el video que está ligado a esta palabra.
 
-To play videos, `textos:` must be before the noun / Para reproducir videos, `textos:` siempre debe ir antes del sustantivo.    
+To play videos, `textos` must be before the noun / Para reproducir videos, `textos` siempre debe ir antes del sustantivo.    
 
 Options for *sustantivo* / Opciones para *sustantivo*:  
 
@@ -50,7 +50,7 @@ Must have two values: Dur Offset / Debe tener dos parámetros: Dur Offset
 
 ## Verb ser-estar for videos / Verbo ser-estar para videos  
 *time* $ *verboSerEstar* $ *imágenes:* *sustantivo* | Example:  
-+ `estoy 0.5 $ aguas` -- creates a circle mask / crea una máscara circular  
++ `estoy 0.5 $ textos(aguas)` -- creates a circle mask / crea una máscara circular  
 
 Options / Opciones:  
 
@@ -66,18 +66,18 @@ Negative numbers inside parenthesis  / Los números negativos van en paréntesis
 
 ## Basic sentece to visualize text / Oración básica para visualizar texto
 *imágenes:* *""* | Example:   
-+ `imágenes: "here I am, alone"`  
++ `imagen("I am here, alone")`  
 
-For text, `imágenes:` must be written before the text you want to visualize. This text should be written inside quotation marks `"my text"`  
-Para texto, `imágenes:` debe de estar escrito antes del texto que se quiere visualizar. Este texto debe ir entre comillas `"my text"`    
+For text, `imagen` must be written before the text you want to visualize. This text should be written inside quotation marks `"my text"`  
+Para texto, `imagen` debe de estar escrito antes del texto que se quiere visualizar. Este texto debe ir entre comillas `"my text"`    
 
 
 ## Verb: for video & text / Verbo: para video & texto
 *verbo* $ *textos:* *sustantivo* | Example:   
-+ `haciendo 0.5 $ textos: aguas` -- changes the size of the video / cambia el tamaño del video
++ `haciendo 0.5 $ textos(aguas)` -- changes the size of the video / cambia el tamaño del video
 
 *verbo* $ *imágenes:* *""* | Example:   
-+ `atravezando 5 $ imágenes: "here I am, alone"` -- changes the size of the text / cambia el tamaño del texto
++ `atravezando 5 $ imagen("I am here, alone")` -- changes the size of the text / cambia el tamaño del texto
 
 Options / Opciones:  
 
@@ -95,10 +95,10 @@ Options / Opciones:
 
 ## Adjective: for video & text / Adjetivo: para video & texto
 *verbo* $ *adjetivos* $ *textos:* *sustantivo* | Example:   
-+ `tempestuosas 0.5 $ haciendo 0.5 $ textos: aguas` -- changes the brightness of the video / cambia el brillo del video
++ `tempestuosas 0.5 $ haciendo 0.5 $ textos(aguas)` -- changes the brightness of the video / cambia el brillo del video
 
 *verbo* $ *adjetivos* $ *imágenes:* *""* | Example:   
-+ `ruidosas $ atravezando 5 $ imágenes: "here I am, alone"` -- text in bold / texto en negritas
++ `ruidosas $ atravezando 5 $ imagen("I am here, alone")` -- text in bold / texto en negritas
 
 Options / Opciones:  
 
@@ -127,8 +127,8 @@ Pueden ser usados en cualquier función reemplazando un valor único. Deben ser 
 | `rápidas`      | ciclos(tiempo) valor-inicial valor-final  | en un tiempo específico, anima de un valor a otro           |
 
 Examples:  
-+ `tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas` -- the brightness changes in 5 cycles / el brillo cambia en 5 ciclos
-+ `ruidosas $ atravezando (rápidas 10 1 10) $ imágenes: "here I am, alone"` -- text grows in 5 cycles / el texto crece en 5 ciclos
++ `tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos(aguas)` -- the brightness changes in 5 cycles / el brillo cambia en 5 ciclos
++ `ruidosas $ atravezando (rápidas 10 1 10) $ imagen("I am here, alone")"` -- text grows in 5 cycles / el texto crece en 5 ciclos
 
 
 ### Option 2 / Opción 2
@@ -140,19 +140,12 @@ Examples:
 | `claras`      | freq         | velocity of animation / velocidad de la animación           |
 
 Examples:  
-+ `tempestuosas (lejanas 0 1 $ claras 0.5) $ haciendo 0.5 $ textos: aguas` -- brightness go up and down / el brillo sube y baja
-+ `ruidosas $ atravezando (lejanas 1 10 $ claras 1) $ imágenes: "here I am, alone"` -- text goes bigger and smaller / el texto se agranda y se achica  
++ `tempestuosas (lejanas 0 1 $ claras 0.5) $ haciendo 0.5 $ textos(aguas)` -- brightness go up and down / el brillo sube y baja
++ `ruidosas $ atravezando (lejanas 1 10 $ claras 0.1) $ imagen("I am here, alone")` -- text goes bigger and smaller / el texto se agranda y se achica  
 
 ## Sentece to silence everything / Oración para silenciar todo
-+ `silencio` -- evaluate just this word / evalúa únicamente esta palabra
-
-## Empty string / String vacíos
-This is a list of words that can be added in-between words that produce an empty string.  
-Esta es una lista de palabras que pueden ser añadidas entre palabras y producen un string vacío  
-
-`Yo`, `un`, `una`, `mi`, `mis`, `el`, `los`, `la`, `las` | Example:  
-+ `mis tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas`  
++ `silencio` -- evaluate just this word / evalúa únicamente esta palabra  
 
 ## Multiple sentences / Oraciones múltiples
 To add multiple sentences, these are divided by `;` (semicolon) / Para añadir oraciones múltiples, éstas van separadas por `.` (punto) | Example:  
-+ `tempestuosas (rápidas 5 0 1) $ haciendo 0.5 $ textos: aguas; ruidosas $ atravezando 5 $ imágenes: "here I am, alone"`
++ `tempestuosas (lejanas 0 1 $ claras 0.2) $ haciendo 0.5 $ textos(aguas); ruidosas $ atravezando (lejanas 1 10 $ claras 0.1) $ imagen("I am here, alone")`

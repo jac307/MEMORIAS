@@ -116,8 +116,6 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 | `EGGplant`            | delaytime: 0.0=none/sin - 1.0                  |
 | `palabra`, `palabras` | cuts the begining / corta el inicio: 0.0 - 1.0 |
 | `idioma`, `idiomas`   | cuts the end / corta el final: 0.0 - 1.0       |
-| `idea`, `ideas`       | room-efect/efecto-room: 0.0=none/sin - 1.0     |
-| `imagen`, `imágenes`  | room-size/tamaño-room: 0.0=none/sin - 1.0      |
 | `México`              | efecto/effect 1, no-value/sin-valor            |
 | `Colombia`            | efecto/effect 2, no-value/sin-valor            |
 | `English`             | efecto/effect 3, no-value/sin-valor            |

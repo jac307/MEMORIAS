@@ -116,8 +116,6 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 | `room`, `rooms`    | delaytime: 0.0=none/sin - 1.0                  |
 | `word`, `words`    | cuts the begining / corta el inicio: 0.0 - 1.0 |
 | `vowel`, `vowels`  | cuts the end / corta el final: 0.0 - 1.0       |
-| `hall`, `halls`    | room-efect/efecto-room: 0.0=none/sin - 1.0     |
-| `wall`, `walls`    | room-size/tamaño-room: 0.0=none/sin - 1.0      |
 | `Fench`            | efecto/effect 1, no-value/sin-valor            |
 | `English`          | efecto/effect 2, no-value/sin-valor            |
 | `books`            | efecto/effect 3, no-value/sin-valor            |

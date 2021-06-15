@@ -121,8 +121,6 @@ Options (all must have a double-value in parentesis) / Opciones (todos deben ten
 | `cacahuates`          | distortion/distorsión: 0++                               |
 | `venta`, `ventanas`   | cuts the begining / corta el inicio: 0.0 - 1.0           |
 | `pasillo`, `pasillos` | cuts the end / corta el final: 0.0 - 1.0                 |
-| `puerta`, `puertas`   | room-efect/efecto-room: 0.0=none/sin - 1.0               |
-| `cuarto`, `cuartos`   | room-size/tamaño-room: 0.0=none/sin - 1.0                |
 | `gato`                | efecto/effect 1, no-value/sin-valor                      |
 | `gatos`               | efecto/effect 2, no-value/sin-valor                      |
 | `felino`              | efecto/effect 3, no-value/sin-valor                      |

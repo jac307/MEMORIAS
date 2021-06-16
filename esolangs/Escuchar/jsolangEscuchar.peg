@@ -25,7 +25,7 @@ haciendo = "haciendo"i { return "setSize" }
 tocando = "tocando"i { return "setWidth" }
 imaginando = "imaginando"i { return "setHeight" }
 atravezando = "atravezando"i { return "fontSize" }
-soñando = "soñando"i { return "fontType" }
+soñando = "soñando"i { return "font" }
 
 // transform
 tempestuosas = "tempestuosas"i { return "setBrightness" }

@@ -1,5 +1,7 @@
 # VER
 
+![MEMORIAS'S IMAGE](/img/verSyntax.jpg)
+
 ## How do I hear?
 
 I am sitting on the floor spying, someone is crying in the next room, I like how the rain sounds, I think on the old days, I’ve learnt so much from sound, I like how it travels, how it is transformed, I am in my class, there is a cello sounding in the building, I also have a friend that sings, somehow he pushes me to sing, I have a horrible voice, I am screaming, trying to do those weird sounds in a public space, I am so self-conscious, I can’t say that verb in German out loud, she is crying, but I don’t want to go in, I hear the phone ringing again, the water splashes in his head, we are laughing, I am sitting here now, there is a parade approaching, I hate noise, everybody says that noise is what we do. I somehow like that. <br/>

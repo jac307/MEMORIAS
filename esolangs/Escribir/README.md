@@ -1,5 +1,7 @@
 # ESCRIBIR
 
+![MEMORIAS'S IMAGE](/img/escribirSyntax.jpg)
+
 ## How do I hear?
 
 I am writing with my finger, spelling words that I imagine, I confuse words, I’ve always liked typography, that is full of well-designed signs like in Colombia, where words come fast as the car gets through the streets, once I won a diploma in elementary school, I was so happy, I don’t have ideas in my head but I have words,I keep on imagining those words, I spell Agosto in English, I always confuse that one, my finger is still moving, I barely watch anymore, I barely write anymore, I am so tired of writing, words tire me, I like the word eggplant, I like its form, EGGPLANT, eggPlant, EGGplant, is it a plant on an egg?, is it an egg on a plant, in Spanish is berenjena. What a boring word. <br/>

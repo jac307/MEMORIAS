@@ -1,5 +1,7 @@
 # OBSERVAR
 
+![MEMORIAS'S IMAGE](/img/observarSyntax.jpg)
+
 ## How do I hear?
 
 I am in my garage looking at its loneliness. I dropped the sadness of my bike next to the main door. I missed those desperate times. Those times when the bird was free to bike all day. I am in front of thousands cats. Feeling its blackness popping as a background. I remember that black cat cursing me. Once I loved the kindness of another cat. Both are gone now. I like to see the sunlight that comes from my room. I had a room like that. I like feeling the sun that comes. I see the confidence of my bed. Sleeping in front of a small window reflecting the first shining. Like a swan. All of those windows pop like the cats from that absurdness of the theatre. A lot of kids have arrived hiding themselves in a cup of tea. We have cold popcorn and hot soda. We once killed a spider with my cousin in that loneliness of the garage. The sun is lying on my keyboard right now. It is so warm. The cat has always felt like me. Lying on my cranky bed with the sun on me. The garage is now a Cinema. I love going to the Cinema. I used to run through the hallways of that big theatre. I think the kids in my garage are also enjoying them. We are eating and laughing. I am also laughing in that theatre. I missed having a cat. I have a dog now. A big white dog. It is like that big creature from that movie. Flying with the boy on its back. I remembered that movie. I haven’t watched it since I was a child. <br/>

@@ -2,7 +2,7 @@
 Live coding + electronic literature project <br/>
 Author: **Jessica A. Rodríguez** (andamio.in) <br/>
 
-![MEMORIAS'S IMAGE](/img/memoriasStill3.png)
+![MEMORIAS'S IMAGE](/img/memoriasStill5.png)
 
 ## Info
 

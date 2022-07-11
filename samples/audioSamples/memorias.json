@@ -1,0 +1,10 @@
+[
+  { "url":"aparece/01.wav","type":"audio","bank":"aparece","n":0},
+  { "url":"aparece/02.wav","type":"audio","bank":"aparece","n":1},
+  { "url":"aparece/03.wav","type":"audio","bank":"aparece","n":2},
+  
+  { "url":"caminar/01.wav","type":"audio","bank":"caminar","n":0},
+  { "url":"caminar/02.wav","type":"audio","bank":"caminar","n":1},
+  { "url":"caminar/03.wav","type":"audio","bank":"caminar","n":2},
+  { "url":"caminar/04.wav","type":"audio","bank":"caminar","n":3},
+]

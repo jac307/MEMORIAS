@@ -15,6 +15,17 @@ These videos were shot by the author / Estos videos fueron grabados por la autor
 ## Links <br/>
 
 + https://jac307.github.io/MEMORIAS/samples/videoSamples/aguas.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/cellos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/cigarras.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/cuartos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/imagenes.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/instrumentos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/noches.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/puertas.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/recuerdos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/ruidos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/sonidos.mov
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/veranos.mov
 
 ## Videos <br/>
 

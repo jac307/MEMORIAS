@@ -1,4 +1,15 @@
-# ESOLANGS - MEMORIAS
+[Home](../README.md) 
+------------------------------------------------------------------------------- 
+## INDEX
++ [Escribir](Escribir/README.md) 
++ [Escuchar](Escuchar/README.md) 
++ [Leer](Leer/README.md)
++ [Observar](Observar/README.md)
++ [Oir](Oir/README.md)
++ [Ver](Ver/README.md)
+------------------------------------------------------------------------------- 
+
+# ESOLANGS
 ![MEMORIAS'S ESOLANGS](/img/memoriasStill4.png)
 
 MEMORIES was developed from six autobiographical texts written in prose. The texts were created from how I have built my memory system; by *Listening*, *Writing*, *Observing*, *Reading*, *Seeing* and *Hearing* the world that has collided with my own body. In the second stage, the texts were taken to design and implement esolangs with specific functions that activate either sonic or visual materialities. <br/>

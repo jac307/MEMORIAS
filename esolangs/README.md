@@ -1,4 +1,4 @@
-[Home](MEMORIAS/README.md) 
+[Home](../README.md) 
 ------------------------------------------------------------------------------- 
 ## INDEX
 + [Escribir](Escribir/README.md) 

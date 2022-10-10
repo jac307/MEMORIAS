@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # Memorias' audio samples
 
 ## Information <br/>
@@ -43,3 +47,8 @@ __volver__ -- (6) <br/>
 
 #### Various Sounds (Industrial textures - Alejandro Brianza /Argentina) <br/>
 __producir__ -- (7) <br/>
+
+-------------------------------------------------------------------------------
+## DESCARGABLES
++ [JSON File](memorias.json)
++ [List / Lista](MEMORIAS_audioSamples.pdf) 

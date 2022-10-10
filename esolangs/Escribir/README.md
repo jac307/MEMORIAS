@@ -1,3 +1,10 @@
+[Home](.../README.md) 
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxEscribir.md)
++ [Cheatsheet](Escribir_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
+
 # ESCRIBIR
 
 ![MEMORIAS'S IMAGE](/img/escribirSyntax.jpg)

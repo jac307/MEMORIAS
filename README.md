@@ -25,6 +25,6 @@ Este proyecto fue parte del *Programa de Estímulo a la Creación y Desarrollo A
 
 ## Index
   
-+ [Esolangs](Esolangs/README.md)
++ [Esolangs](esolangs/README.md)
 
-+ [Samples](Samples/README.md) 
++ [Samples](samples/README.md) 

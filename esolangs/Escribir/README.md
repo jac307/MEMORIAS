@@ -1,5 +1,5 @@
-[Home](.../README.md)
-[ESOLANGS](../README.md) 
+[back / regresar](../README.md)  
+[Home](../../README.md)  
 ------------------------------------------------------------------------------- 
 ## INDEX
 + [Syntax](syntaxEscribir.md)

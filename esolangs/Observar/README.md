@@ -1,3 +1,11 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxObservar.md)
++ [Cheatsheet](Observar_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
+
 # OBSERVAR
 
 ![MEMORIAS'S IMAGE](/img/observarSyntax.jpg)

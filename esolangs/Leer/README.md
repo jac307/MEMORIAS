@@ -1,3 +1,11 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxLeer.md)
++ [Cheatsheet](Leer_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
+
 # LEER
 
 ![MEMORIAS'S IMAGE](/img/leerSyntax.jpg)

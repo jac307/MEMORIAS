@@ -1,3 +1,11 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxOir.md)
++ [Cheatsheet](Oir_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
+
 # OIR
 
 ![MEMORIAS'S IMAGE](/img/oirSyntax.jpg)

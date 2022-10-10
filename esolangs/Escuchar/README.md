@@ -1,3 +1,10 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxEscuchar.md)
++ [Cheatsheet](Escuchar_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
 # ESCUCHAR
 
 ![MEMORIAS'S IMAGE](/img/escucharSyntax.jpg)

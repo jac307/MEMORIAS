@@ -1,4 +1,5 @@
-[Home](../README.md) 
+[Home](.../README.md)
+[ESOLANGS](../README.md) 
 ------------------------------------------------------------------------------- 
 ## INDEX
 + [Syntax](syntaxEscribir.md)

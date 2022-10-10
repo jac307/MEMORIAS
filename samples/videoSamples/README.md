@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # Memorias' video samples
 
 ## Information <br/>

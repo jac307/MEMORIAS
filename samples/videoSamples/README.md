@@ -14,22 +14,19 @@ These videos were shot by the author / Estos videos fueron grabados por la autor
 
 ## Links <br/>
 
-+ https://jac307.github.io/documentation-Estuary/Video/00.mov
-+ https://jac307.github.io/documentation-Estuary/Video/01.mov
-+ https://jac307.github.io/documentation-Estuary/Video/02.mov
-+ https://jac307.github.io/documentation-Estuary/Video/03.mov 
++ https://jac307.github.io/MEMORIAS/samples/videoSamples/aguas.mov
 
 ## Videos <br/>
 
-[Video00](aguas.mov)  
-[Video00](cellos.mov)  
-[Video00](cigarras.mov)  
-[Video00](cuartos.mov)  
-[Video00](imagenes.mov)  
-[Video00](instrumentos.mov)  
-[Video00](noches.mov)  
-[Video00](puertas.mov)  
-[Video00](recuerdos.mov)  
-[Video00](ruidos.mov)  
-[Video00](sonidos.mov)  
-[Video00](veranos.mov)  
+[aguas](aguas.mov)  
+[cellos](cellos.mov)  
+[cigarras](cigarras.mov)  
+[cuartos](cuartos.mov)  
+[imágenes](imagenes.mov)  
+[instrumentos](instrumentos.mov)  
+[noches](noches.mov)  
+[puertas](puertas.mov)  
+[recuerdos](recuerdos.mov)  
+[ruidos](ruidos.mov)  
+[sonidos](sonidos.mov)  
+[veranos](veranos.mov)  

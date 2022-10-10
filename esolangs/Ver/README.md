@@ -1,3 +1,11 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+## INDEX
++ [Syntax](syntaxVer.md)
++ [Cheatsheet](Ver_cheatsheet.pdf) 
+-------------------------------------------------------------------------------
+
 # VER
 
 ![MEMORIAS'S IMAGE](/img/verSyntax.jpg)

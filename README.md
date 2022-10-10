@@ -1,3 +1,10 @@
+## INDEX
+ 
++ [Esolangs](esolangs/README.md)
++ [Samples](samples/README.md) 
+
+------------------------------------------------------------------------------- 
+
 # MEMORIAS (2018-21)
 Live coding + electronic literature project <br/>
 Author: **Jessica A. Rodríguez** (andamio.in) <br/>
@@ -22,9 +29,3 @@ Technical support / Soporte técnico:  **David Ogborn** (Canada) & **Luis N. Del
 This project was part the *Programa de Estímulo a la Creación y Desarrollo Artístico de Michoacán* (PECDAM’18) by the state of Michoacán, Mexico. It was also developed within the *Networked Imagination Laboratory* [NIL] at McMaster University in Hamilton (Canada) in close connection with the SSHRC Insight grant “Platforms and practices for networked, language-neutral live coding”.
 
 Este proyecto fue parte del *Programa de Estímulo a la Creación y Desarrollo Artístico de Michoacán* (PECDAM’18) en el estado de Michoacán, México. Fue desarrollado también como parte del *Networked Imagination Laboratory* [NIL] en McMaster University in Hamilton (Canada), en connección con SSHRC Insight grant “Platforms and practices for networked, language-neutral live coding”.
-
-## Index
-  
-+ [Esolangs](esolangs/README.md)
-
-+ [Samples](samples/README.md) 

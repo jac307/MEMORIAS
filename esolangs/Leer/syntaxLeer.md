@@ -8,10 +8,9 @@
 For speech patters in Spanish / Para patrones de voz en Español  
 Parsing Tidal Cycles  
 
-This [esolang](https://github.com/jac307/estuary/blob/master/client/src/Estuary/Languages/TiempoEspacio/Leer.hs) can be accesed through [Estuary](https://estuary.mcmaster.ca/), just look for it on the language's dropdown menu.  
-
-Este [esolang](https://github.com/jac307/estuary/blob/master/client/src/Estuary/Languages/TiempoEspacio/Leer.hs) puede ser accesado a través de [Estuary](https://estuary.mcmaster.ca/), busca en el menú de opciones.  
-
+Instructions on how to use this jsolang will be published soon.  
+Las instrucciones de cómo usar este jsolang serán publicadas pronto.  
+  
 ____________________________________________
 
 ## Syntax / Sintaxis

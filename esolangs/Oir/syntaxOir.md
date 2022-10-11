@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # [JSOLANG] OIR
 
 For visual synthesis / Para síntesis visual  

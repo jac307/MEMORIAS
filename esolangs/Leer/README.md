@@ -10,7 +10,7 @@
 
 # LEER
 
-![MEMORIAS'S IMAGE](/img/leerSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/leerSyntax.jpg)
 
 
 ## How do I read?

@@ -10,7 +10,7 @@
 
 # ESCRIBIR
 
-![MEMORIAS'S IMAGE](/img/escribirSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/escribirSyntax.jpg)
 
 ## How do I hear?
 

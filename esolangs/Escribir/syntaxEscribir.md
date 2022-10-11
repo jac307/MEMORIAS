@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # ESCRIBIR
 
 For speech patters in English / Para patrones de voz en Inglés <br/>

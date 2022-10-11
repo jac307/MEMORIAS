@@ -2,12 +2,14 @@
 [Home](../../README.md)  
 ------------------------------------------------------------------------------- 
 ## INDEX
+
 + [Syntax](syntaxEscuchar.md)
 + [Cheatsheet](Escuchar_cheatsheet.pdf) 
+
 -------------------------------------------------------------------------------
 # ESCUCHAR
 
-![MEMORIAS'S IMAGE](/img/escucharSyntax.jpg)
+![MEMORIAS'S IMAGE](../img/escucharSyntax.jpg)
 
 ## How do I hear?
 

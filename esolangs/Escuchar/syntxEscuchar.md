@@ -38,12 +38,13 @@ To play videos, `textos` must be before the noun / Para reproducir videos, `text
 
 Options for *sustantivo* / Opciones para *sustantivo*:  
 
-| sustantivos  | Video-still                                  | sustantivos  | Video-still                                  |
-| ------------ | -------------------------------------------- | ------------ | -------------------------------------------- |
-| `cuartos`    | ![cuartos-still](/img/cuartos-still.jpg)     | `aguas`      | ![aguas-still](/img/aguas-still.jpg)         |
-| `sonidos`    | ![sonidos-still](/img/sonidos-still.jpg)     | `cigarras`   | ![cigarras-still](/img/cigarras-still.jpg)   |
-| `veranos`    | ![veranos-still](/img/veranos-still.jpg)     | `cellos`     | ![cellos-still](/img/cellos-still.jpg)       |
-| `imágenes`   | ![imagenes-still](/img/imagenes-still.jpg)   | `noches`     | ![noches-still](/img/noches-still.jpg)       |
+| sustantivos  | Video-still                                                                      | sustantivos  | Video-still                                                                                |
+| ------------ | -------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- |
+| `cuartos`    | <img src="https://jac307.github.io/MEMORIAS/img/cuartos-still.jpg" width="300">  | `aguas`      | <img src="https://jac307.github.io/MEMORIAS/img/aguas-still.jpg" width="300">     |
+| `sonidos`    | <img src="https://jac307.github.io/MEMORIAS/img/sonidos-still.jpg" width="300">  | `cigarras`   | <img src="https://jac307.github.io/MEMORIAS/img/cigarras-still.jpg" width="300">  |
+| `veranos`    | <img src="https://jac307.github.io/MEMORIAS/img/veranos-still.jpg" width="300">  | `cellos`     | <img src="https://jac307.github.io/MEMORIAS/img/cellos-still.jpg" width="300">    |
+| `imágenes`   | <img src="https://jac307.github.io/MEMORIAS/img/imagenes-still.jpg" width="300"> | `noches`     | <img src="https://jac307.github.io/MEMORIAS/img/noches-still.jpg" width="300">    |
+
 
 ## Time for videos / Time para videos
 *time* $ *imágenes:* *sustantivo* | Example:   

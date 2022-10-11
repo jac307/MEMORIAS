@@ -8,10 +8,9 @@
 For sound patters with instruments / Para patrones sonoros con instrumentos <br/>
 Parsing Tidal Cycles <br/>
 
-This [esolang](https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/TiempoEspacio/Observar.hs) can be accesed through [Estuary](https://estuary.mcmaster.ca/), just look for it on the language's dropdown menu.  
-
-Este [esolang](https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/TiempoEspacio/Observar.hs) puede ser accesado a través de [Estuary](https://estuary.mcmaster.ca/), busca en el menú de opciones.  
-
+Instructions on how to use this jsolang will be published soon.  
+Las instrucciones de cómo usar este jsolang serán publicadas pronto.  
+  
 ____________________________________________
 
 ## Syntax / Sintaxis

@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # OBSERVAR
 
 For sound patters with instruments / Para patrones sonoros con instrumentos <br/>

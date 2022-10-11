@@ -11,7 +11,7 @@
 
 # OIR
 
-![MEMORIAS'S IMAGE](/img/oirSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/oirSyntax.jpg)
 
 ## How do I hear?
 

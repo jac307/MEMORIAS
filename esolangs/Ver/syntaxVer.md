@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # [JSOLANG] VER
 
 For video sampling / Para sampling de video <br/>

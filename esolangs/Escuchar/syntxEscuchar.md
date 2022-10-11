@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # [JSOLANG] ESCUCHAR
 
 For sound synthesis / Para síntesis sonora <br/>

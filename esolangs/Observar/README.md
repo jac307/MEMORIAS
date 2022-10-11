@@ -10,7 +10,7 @@
 
 # OBSERVAR
 
-![MEMORIAS'S IMAGE](/img/observarSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/observarSyntax.jpg)
 
 ## How do I hear?
 

@@ -48,11 +48,11 @@ Options/Opciones:
 
 `.disappear()` and `.open()`. These need an extra parameter: / Estas funciones necesitan un parametro:  
 
-| image   | photo                                  | video     | Video-still                                |
-| ------- | -------------------------------------- | --------- | ------------------------------------------ |
-| `uno_`  | ![uno-image](/img/uno.jpeg)             | `cuatro_` | ![cuatro-still](/img/cuatro-still.jpeg)   |
-| `dos_`  | ![dos-img](/img/dos.jpg)               | `cinco_`  | ![cinco-still](/img/cinco-still.jpeg)      |
-| `tres_` | ![tres-img](/img/tres.jpg)             | `seis_`   | ![seis-still](/img/seis-still.jpeg)        |
+| image   | photo                                                                   | video     | Video-still                                |
+| ------- | ----------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------- |
+| `uno_`  | <img src="https://jac307.github.io/MEMORIAS/img/uno.jpeg" width="300">  | `cuatro_` | <img src="https://jac307.github.io/MEMORIAS/img/cuatro-still.jpeg" width="300">   |
+| `dos_`  | <img src="https://jac307.github.io/MEMORIAS/img/dos.jpg" width="300">   | `cinco_`  | <img src="https://jac307.github.io/MEMORIAS/img/cinco-still.jpeg" width="300">    |
+| `tres_` | <img src="https://jac307.github.io/MEMORIAS/img/tres.jpg" width="300">  | `seis_`   | <img src="https://jac307.github.io/MEMORIAS/img/seis-still.jpeg" width="300">     |
 
 Ejemplo / Example:  
 + `did.open(uno_)`  

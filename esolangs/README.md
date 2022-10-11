@@ -36,7 +36,7 @@ Originalmente, todos los esolangs se implementaron en Haskell-Reflex, utilizando
 + **Oir** y **Ver** parseaban *[Puntual](https://github.com/dktr0/Punctual)*. **Oir** para síntesis visual y **Ver** para síntesis de sonido. *Estos idiomas ya no están disponibles como tal en Estuary.*
 + **Escuchar** parseaba *[CineCer0](https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/CineCer0/REFERENCE.md)*, para sampling de video.
 
-### UPDATES!!!
+### ACTUALIZACIÓN
 Ahora los lenguajes están implementados como [JSoLAngs](https://hcommons.org/deposits/item/hc:39063/), lenguajes de reemplazo de texto sobre la marcha implementados en Estuary. Muy pronto subiré un tutorial de cómo correr estos JSoLangs en Estuary. Además realicé algunos cambios: <br/>
 + **[Oir](/esolangs/Oir)** ahora parsea *[Hydra](https://hydra.ojack.xyz/?sketch_id=ritchse_2)*, mientras que **[Ver](/esolangs/Ver)** parsea la síntesis de sonido de *Punctual*.
 + **[Escuchar](/esolangs/Escuchar)** todavía parsea CineCer0 y se han agregado funciones para visualizar texto.

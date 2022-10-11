@@ -11,7 +11,7 @@
 
 # VER
 
-![MEMORIAS'S IMAGE](/img/verSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/verSyntax.jpg)
 
 ## How do I hear?
 

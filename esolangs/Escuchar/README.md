@@ -3,13 +3,13 @@
 ------------------------------------------------------------------------------- 
 ## INDEX
 
-+ [Syntax](syntaxEscuchar.md)
++ [Syntax](syntxEscuchar.md)
 + [Cheatsheet](Escuchar_cheatsheet.pdf) 
 
 -------------------------------------------------------------------------------
 # ESCUCHAR
 
-![MEMORIAS'S IMAGE](../img/escucharSyntax.jpg)
+![MEMORIAS'S IMAGE](/img/escucharSyntax.jpg)
 
 ## How do I hear?
 

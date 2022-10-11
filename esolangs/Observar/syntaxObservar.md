@@ -1,4 +1,5 @@
-[back / regresar](../README.md)  
+[back / regresar](README.md)   
+[Esolangs](../README.md)   
 [Home](../../README.md)  
 ------------------------------------------------------------------------------- 
 

@@ -1,14 +1,14 @@
 [Home](../README.md) 
 ------------------------------------------------------------------------------- 
 ## INDEX
-
+  
 + [Escribir](Escribir/README.md) 
 + [Escuchar](Escuchar/README.md) 
 + [Leer](Leer/README.md)
 + [Observar](Observar/README.md)
 + [Oir](Oir/README.md)
 + [Ver](Ver/README.md)
-
+  
 ------------------------------------------------------------------------------- 
 
 # ESOLANGS

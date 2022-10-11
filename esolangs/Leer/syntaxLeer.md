@@ -1,3 +1,7 @@
+[back / regresar](../README.md)  
+[Home](../../README.md)  
+------------------------------------------------------------------------------- 
+
 # LEER
 
 For speech patters in Spanish / Para patrones de voz en Español  

@@ -2,11 +2,11 @@
 [Home](../../README.md)  
 ------------------------------------------------------------------------------- 
 ## INDEX
-
+  
 + [Syntax](syntxEscuchar.md)
 + [Cheatsheet](Escuchar_cheatsheet.pdf) 
 + [JSoLang](jsolangEscuchar.peg)
-
+  
 -------------------------------------------------------------------------------
 # ESCUCHAR
 

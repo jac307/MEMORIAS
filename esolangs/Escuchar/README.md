@@ -10,7 +10,7 @@
 -------------------------------------------------------------------------------
 # ESCUCHAR
 
-![MEMORIAS'S IMAGE](/img/escucharSyntax.jpg)
+![MEMORIAS'S IMAGE](https://jac307.github.io/MEMORIAS/img/escucharSyntax.jpg)
 
 ## How do I hear?
 

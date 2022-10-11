@@ -29,15 +29,17 @@ These videos were shot by the author / Estos videos fueron grabados por la autor
 
 ## Videos <br/>
 
-[aguas](aguas.mov)  
-[cellos](cellos.mov)  
-[cigarras](cigarras.mov)  
-[cuartos](cuartos.mov)  
-[imágenes](imagenes.mov)  
-[instrumentos](instrumentos.mov)  
-[noches](noches.mov)  
-[puertas](puertas.mov)  
-[recuerdos](recuerdos.mov)  
-[ruidos](ruidos.mov)  
-[sonidos](sonidos.mov)  
-[veranos](veranos.mov)  
+| name/nombre | still                                                                                |
+| ----------- | ------------------------------------------------------------------------------------ |
+| aguas       | <img src="https://jac307.github.io/MEMORIAS/img/aguas-still.jpg" width="300">        |
+| cellos      | <img src="https://jac307.github.io/MEMORIAS/img/cellos-still.jpg" width="300">       |
+| cigarras    | <img src="https://jac307.github.io/MEMORIAS/img/cigarras-still.jpg" width="300">     |
+| cuartos     | <img src="https://jac307.github.io/MEMORIAS/img/cuartos-still.jpg" width="300">      |
+| imágenes    | <img src="https://jac307.github.io/MEMORIAS/img/imagenes-still.jpg" width="300">     |
+| intrumentos | <img src="https://jac307.github.io/MEMORIAS/img/instrumentos-still.jpg" width="300"> |
+| noches      | <img src="https://jac307.github.io/MEMORIAS/img/noches-still.jpg" width="300">       |
+| puertas     | <img src="https://jac307.github.io/MEMORIAS/img/puertas-still.jpg" width="300">      |
+| recuerdos   | <img src="https://jac307.github.io/MEMORIAS/img/recuerdos-still.jpg" width="300">    |
+| ruidos      | <img src="https://jac307.github.io/MEMORIAS/img/ruidos-still.jpg" width="300">       |
+| sonidos     | <img src="https://jac307.github.io/MEMORIAS/img/sonidos-still.jpg" width="300">      |
+| veranos     | <img src="https://jac307.github.io/MEMORIAS/img/veranos-still.jpg" width="300">      |  

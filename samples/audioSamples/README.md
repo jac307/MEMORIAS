@@ -4,6 +4,10 @@
 
 # Memorias' audio samples
 
+Add audio samples to Estuary, run in terminal:
+
+!reslist "https://jac307.github.io/MEMORIAS/samples/audioSamples/memorias.json"
+
 ## Information <br/>
 
 MEMORIAS (2018-19), a live coding + electronic literature project <br/>
